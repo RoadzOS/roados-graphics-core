@@ -10,7 +10,20 @@
 # Only the third-party dependencies that our configuration needs are fetched
 # (expat, libpng, zlib), each at the exact commit pinned in Skia's DEPS file.
 #
-# Usage: scripts/bootstrap_skia.sh [Release|Debug]
+# Usage: scripts/bootstrap_skia.sh [Release|Debug] [TARGET]
+#
+# TARGET (default: host):
+#   host            the machine running the script (macOS or Linux)
+#   ios-arm64       iOS devices                       (needs Xcode)
+#   iossim-arm64    iOS Simulator on Apple silicon     (needs Xcode)
+#   android-arm64   Android arm64-v8a                  (needs ANDROID_NDK_HOME)
+#   android-x64     Android x86_64 (emulator)          (needs ANDROID_NDK_HOME)
+#
+# Output: third_party/skia/out/<Config>-<os>-<cpu>, e.g. Release-iossim-arm64.
+# The source checkout is shared, so each extra target costs ~25 MB.
+#
+# Environment: ROADOS_SKIA_DIR (shared checkout), ROADOS_IOS_MIN (default 16.0),
+#              ROADOS_ANDROID_API (default 24), ANDROID_NDK_HOME.
 set -euo pipefail
 
 SKIA_COMMIT="37e919d8669ebe4a8912dcef03db14b9b55f70c7"   # chrome/m158, 2026-11-20
@@ -19,6 +32,7 @@ SKIA_URL="https://skia.googlesource.com/skia"
 NEEDED_DEPS=(expat libpng zlib)
 
 CONFIG="${1:-Release}"
+TARGET="${2:-host}"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SKIA_DIR="${ROADOS_SKIA_DIR:-$ROOT/third_party/skia}"
 
@@ -28,7 +42,30 @@ case "$(uname -s)" in
   *) echo "Unsupported host OS for this script: $(uname -s)" >&2; exit 1 ;;
 esac
 HOST_CPU="$(uname -m)"; [[ "$HOST_CPU" == "aarch64" ]] && HOST_CPU=arm64; [[ "$HOST_CPU" == "x86_64" ]] && HOST_CPU=x64
-OUT="out/${CONFIG}-${HOST_OS}-${HOST_CPU}"
+
+# Target platform → GN arguments and output directory name.
+TARGET_ARGS=""
+case "$TARGET" in
+  host)
+    OUT_OS="$HOST_OS"; OUT_CPU="$HOST_CPU" ;;
+  ios-arm64|iossim-arm64)
+    [[ "$HOST_OS" == mac ]] || { echo "iOS targets need a macOS host" >&2; exit 1; }
+    OUT_CPU=arm64
+    if [[ "$TARGET" == ios-arm64 ]]; then OUT_OS=ios; SIM=false; else OUT_OS=iossim; SIM=true; fi
+    TARGET_ARGS="target_os=\"ios\" target_cpu=\"arm64\" ios_use_simulator=$SIM ios_min_target=\"${ROADOS_IOS_MIN:-16.0}\""
+    ;;
+  android-arm64|android-x64)
+    NDK="${ANDROID_NDK_HOME:-${ANDROID_NDK_ROOT:-}}"
+    [[ -d "$NDK" ]] || { echo "Set ANDROID_NDK_HOME to an Android NDK (r26 or newer)" >&2; exit 1; }
+    OUT_OS=android; OUT_CPU="${TARGET#android-}"
+    NEEDED_DEPS+=(freetype)
+    TARGET_ARGS="target_os=\"android\" target_cpu=\"$OUT_CPU\" ndk=\"$NDK\" ndk_api=${ROADOS_ANDROID_API:-24}
+skia_use_freetype=true skia_use_system_freetype2=false skia_enable_fontmgr_android=true
+skia_enable_fontmgr_android_ndk=false"
+    ;;
+  *) echo "Unknown target: $TARGET" >&2; exit 1 ;;
+esac
+OUT="out/${CONFIG}-${OUT_OS}-${OUT_CPU}"
 
 log() { printf '\033[1;34m[skia]\033[0m %s\n' "$*"; }
 
@@ -94,7 +131,9 @@ skia_use_vulkan=false
 skia_use_xps=false
 skia_use_partition_alloc=false
 "
-if [[ "$HOST_OS" == "linux" ]]; then
+ARGS+="$TARGET_ARGS
+"
+if [[ "$TARGET" == host && "$HOST_OS" == "linux" ]]; then
   ARGS+="skia_use_freetype=true
 skia_use_system_freetype2=true
 skia_use_fontconfig=true

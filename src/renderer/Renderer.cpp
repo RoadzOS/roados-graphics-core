@@ -30,6 +30,9 @@
 
 #if defined(__APPLE__)
 #include "include/ports/SkFontMgr_mac_ct.h"
+#elif defined(__ANDROID__)
+#include "include/ports/SkFontMgr_android.h"
+#include "include/ports/SkFontScanner_FreeType.h"
 #elif defined(__linux__)
 #include "include/ports/SkFontMgr_fontconfig.h"
 #include "include/ports/SkFontScanner_FreeType.h"
@@ -41,7 +44,10 @@ namespace roados {
 
 Renderer::Impl::Impl() {
 #if defined(__APPLE__)
-    fontMgr = SkFontMgr_New_CoreText(nullptr);
+    fontMgr = SkFontMgr_New_CoreText(nullptr);  // macOS and iOS
+#elif defined(__ANDROID__)
+    // System fonts from /system/etc/fonts.xml (works on every API level we support).
+    fontMgr = SkFontMgr_New_Android(nullptr, SkFontScanner_Make_FreeType());
 #elif defined(__linux__)
     fontMgr = SkFontMgr_New_FontConfig(nullptr, SkFontScanner_Make_FreeType());
 #endif
