@@ -1,0 +1,3 @@
+[submodule "external/roados-visual-hazard-studio"]
+	path = external/roados-visual-hazard-studio
+	url = https://github.com/GodwiniOS/roados-visual-hazard-studio.git

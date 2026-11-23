@@ -1,0 +1,22 @@
+# Visual-regression fixtures: <frame>/<theme>/<file>  <class>
+# class "geometry": no text. class "text": contains <text> (font-dependent).
+# Chosen to cover every SVG feature found by the census (docs/svg-compatibility).
+roados_hazard/dark/rdm-003-large-pothole~large.svg            geometry
+roados_hazard/light/deb-017-cargo-spillage.svg                geometry
+roados_hazard/dark/brg-011-unprotected-embankment.svg         geometry
+roados_hazard/dark/deb-012-broken-glass.svg                   geometry
+roados_hazard/dark/geo-004-hairpin-bend~right.svg             geometry
+roados_hazard/dark/deb-003-large-stone~large.svg              geometry
+roados_hazard/dark/env-009-wet-road.svg                       geometry
+roados_signal/dark/sig-001-vehicle-traffic-signal~all.svg     geometry
+warning_triangle/dark/brg-001-narrow-bridge.svg               geometry
+roados_marking/dark/mrk-009-direction-arrows~ahead_right.svg  geometry
+prohibitory_circle/dark/rsg-007-no-overtaking.svg             geometry
+info_rect/dark/rsg-035-fuel.svg                               geometry
+roados_context/dark/veh-001-current-vehicle-speed.svg         geometry
+prohibitory_circle/dark/rsg-012-weight-restriction.svg        text
+stop_octagon/dark/rsg-001-stop.svg                            text
+prohibitory_circle/dark/rsg-009-speed-limit.svg               text
+roados_hazard/dark/geo-019-steep-uphill~up.svg                text
+roados_marking/dark/mrk-014-speed-limit-pavement-marking.svg  text
+info_rect/dark/rsg-034-parking.svg                            text

@@ -1,0 +1,3838 @@
+{
+  "format": "rvhl-bundle/1",
+  "rvhlVersion": "1.0.0",
+  "exporterVersion": "1.0.0",
+  "source": {
+    "repository": "https://github.com/GodwiniOS/roados-visual-hazard-studio",
+    "commit": "f6b145eb970b2bf1dc7147d91d14563b48c3315a",
+    "dirty": false
+  },
+  "glyphFontFamily": "Inter, 'Segoe UI', Roboto, Arial, sans-serif",
+  "counts": {
+    "families": 14,
+    "entries": 267,
+    "pictograms": 762
+  },
+  "files": [
+    {
+      "path": "catalogue.json",
+      "sha256": "8a626ae51761e3278e8c342680b001040f10ec44f320a0a65c527bb9a34701b0",
+      "bytes": 582927
+    },
+    {
+      "path": "pictograms/direction_board/dark/rsg-037-destination-and-direction-signs.svg",
+      "sha256": "cdb58056515a1b244f091e090b69aabfdae27e19b629467680870afe87b25852",
+      "bytes": 896
+    },
+    {
+      "path": "pictograms/direction_board/light/rsg-037-destination-and-direction-signs.svg",
+      "sha256": "cdb58056515a1b244f091e090b69aabfdae27e19b629467680870afe87b25852",
+      "bytes": 896
+    },
+    {
+      "path": "pictograms/give_way_triangle/dark/rsg-002-give-way.svg",
+      "sha256": "bb7d5fa27c40bdec4a7f5a768e5d3f221b88dddb572e58589c735bbeb13fadf6",
+      "bytes": 90
+    },
+    {
+      "path": "pictograms/give_way_triangle/light/rsg-002-give-way.svg",
+      "sha256": "bb7d5fa27c40bdec4a7f5a768e5d3f221b88dddb572e58589c735bbeb13fadf6",
+      "bytes": 90
+    },
+    {
+      "path": "pictograms/info_rect/dark/rsg-004-one-way.svg",
+      "sha256": "c8cd70809c483fc41d145691a8a22da0a6cbbe538654d1e543b21ce9970f4f1c",
+      "bytes": 250
+    },
+    {
+      "path": "pictograms/info_rect/dark/rsg-033-hospital.svg",
+      "sha256": "4ce9b0c83ac70ee7134dcd76e1f04ae1a8f36a0818f245156a985c5a0534c280",
+      "bytes": 223
+    },
+    {
+      "path": "pictograms/info_rect/dark/rsg-034-parking.svg",
+      "sha256": "841eff73e9290cd217ce825c18d83a0f8b98a4605e6fb344aa411bd85c135fdc",
+      "bytes": 274
+    },
+    {
+      "path": "pictograms/info_rect/dark/rsg-035-fuel.svg",
+      "sha256": "d045dc927738e6fa29e50a413e0401fee044262b5801a10af84c5328d1dacdec",
+      "bytes": 430
+    },
+    {
+      "path": "pictograms/info_rect/dark/rsg-036-bus-stop.svg",
+      "sha256": "b179464d8bb728eb1f899d83338af27d050dc468e5a3740df7febc44a14269dd",
+      "bytes": 722
+    },
+    {
+      "path": "pictograms/info_rect/light/rsg-004-one-way.svg",
+      "sha256": "c8cd70809c483fc41d145691a8a22da0a6cbbe538654d1e543b21ce9970f4f1c",
+      "bytes": 250
+    },
+    {
+      "path": "pictograms/info_rect/light/rsg-033-hospital.svg",
+      "sha256": "4ce9b0c83ac70ee7134dcd76e1f04ae1a8f36a0818f245156a985c5a0534c280",
+      "bytes": 223
+    },
+    {
+      "path": "pictograms/info_rect/light/rsg-034-parking.svg",
+      "sha256": "841eff73e9290cd217ce825c18d83a0f8b98a4605e6fb344aa411bd85c135fdc",
+      "bytes": 274
+    },
+    {
+      "path": "pictograms/info_rect/light/rsg-035-fuel.svg",
+      "sha256": "d045dc927738e6fa29e50a413e0401fee044262b5801a10af84c5328d1dacdec",
+      "bytes": 430
+    },
+    {
+      "path": "pictograms/info_rect/light/rsg-036-bus-stop.svg",
+      "sha256": "b179464d8bb728eb1f899d83338af27d050dc468e5a3740df7febc44a14269dd",
+      "bytes": 722
+    },
+    {
+      "path": "pictograms/prohibitory_circle/dark/rsg-003-no-entry.svg",
+      "sha256": "e6e990bf046b005647275cc440c3f82566b82947f78f2cc3437d86480a0b9695",
+      "bytes": 203
+    },
+    {
+      "path": "pictograms/prohibitory_circle/dark/rsg-005-no-parking.svg",
+      "sha256": "707edd480977210cdf9c212c1ce70278375ca56ec9f1523d51e8946698857838",
+      "bytes": 274
+    },
+    {
+      "path": "pictograms/prohibitory_circle/dark/rsg-006-no-stopping.svg",
+      "sha256": "66021f999f8bf3ba06a045725b63a7add8e2c07d938efc8f18ae0259126ca537",
+      "bytes": 300
+    },
+    {
+      "path": "pictograms/prohibitory_circle/dark/rsg-007-no-overtaking.svg",
+      "sha256": "841598a1e134fe01099d441eb0738405e0fe85d72a69c8c7c94f73bead2a7632",
+      "bytes": 905
+    },
+    {
+      "path": "pictograms/prohibitory_circle/dark/rsg-008-no-u-turn.svg",
+      "sha256": "397bd6dabf3920b046de0c5a9c65751bd7f991b496e1f4bd0a8f13d7a2278b93",
+      "bytes": 268
+    },
+    {
+      "path": "pictograms/prohibitory_circle/dark/rsg-009-speed-limit.svg",
+      "sha256": "26645857213eaae494def153c78fd7ec54487156d36e738500bad720e08a6a59",
+      "bytes": 275
+    },
+    {
+      "path": "pictograms/prohibitory_circle/dark/rsg-010-height-restriction.svg",
+      "sha256": "ee7fefc26aa9b5206bac0ce5f95f8553aef9495e445bb9e9b7efee8018b25a1d",
+      "bytes": 338
+    },
+    {
+      "path": "pictograms/prohibitory_circle/dark/rsg-011-width-restriction.svg",
+      "sha256": "54aae41bf603d303e79f84fc907ce60f9f6e473ae563e2afc4802e0b66f20b3c",
+      "bytes": 336
+    },
+    {
+      "path": "pictograms/prohibitory_circle/dark/rsg-012-weight-restriction.svg",
+      "sha256": "ce2321886c9db4ca80cdffdb76a8fda96ccdf099330e7e11f37dd76a12b23966",
+      "bytes": 486
+    },
+    {
+      "path": "pictograms/prohibitory_circle/light/rsg-003-no-entry.svg",
+      "sha256": "e6e990bf046b005647275cc440c3f82566b82947f78f2cc3437d86480a0b9695",
+      "bytes": 203
+    },
+    {
+      "path": "pictograms/prohibitory_circle/light/rsg-005-no-parking.svg",
+      "sha256": "707edd480977210cdf9c212c1ce70278375ca56ec9f1523d51e8946698857838",
+      "bytes": 274
+    },
+    {
+      "path": "pictograms/prohibitory_circle/light/rsg-006-no-stopping.svg",
+      "sha256": "66021f999f8bf3ba06a045725b63a7add8e2c07d938efc8f18ae0259126ca537",
+      "bytes": 300
+    },
+    {
+      "path": "pictograms/prohibitory_circle/light/rsg-007-no-overtaking.svg",
+      "sha256": "841598a1e134fe01099d441eb0738405e0fe85d72a69c8c7c94f73bead2a7632",
+      "bytes": 905
+    },
+    {
+      "path": "pictograms/prohibitory_circle/light/rsg-008-no-u-turn.svg",
+      "sha256": "397bd6dabf3920b046de0c5a9c65751bd7f991b496e1f4bd0a8f13d7a2278b93",
+      "bytes": 268
+    },
+    {
+      "path": "pictograms/prohibitory_circle/light/rsg-009-speed-limit.svg",
+      "sha256": "26645857213eaae494def153c78fd7ec54487156d36e738500bad720e08a6a59",
+      "bytes": 275
+    },
+    {
+      "path": "pictograms/prohibitory_circle/light/rsg-010-height-restriction.svg",
+      "sha256": "ee7fefc26aa9b5206bac0ce5f95f8553aef9495e445bb9e9b7efee8018b25a1d",
+      "bytes": 338
+    },
+    {
+      "path": "pictograms/prohibitory_circle/light/rsg-011-width-restriction.svg",
+      "sha256": "54aae41bf603d303e79f84fc907ce60f9f6e473ae563e2afc4802e0b66f20b3c",
+      "bytes": 336
+    },
+    {
+      "path": "pictograms/prohibitory_circle/light/rsg-012-weight-restriction.svg",
+      "sha256": "ce2321886c9db4ca80cdffdb76a8fda96ccdf099330e7e11f37dd76a12b23966",
+      "bytes": 486
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-001-current-vehicle-speed.svg",
+      "sha256": "ec12f0a268850326afd550d46b1ec72f8af395518881f4e56b749699458dd10e",
+      "bytes": 1754
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-002-vehicle-dimensions.svg",
+      "sha256": "1ccc65fe917a3d096a48750864ac3ff049d997c344a8181fe52e55ac9c3df106",
+      "bytes": 673
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-003-ground-clearance.svg",
+      "sha256": "4c4235ad66dcdcbfed128781bc189605c0512618cb11a429d4503b3e0d63a87b",
+      "bytes": 744
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-004-vehicle-type~bus.svg",
+      "sha256": "9597aa23d5b1cbe3f0a48cb152f90b1d0a7ece420731d95ac730efa9b55f41bb",
+      "bytes": 722
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-004-vehicle-type~car.svg",
+      "sha256": "6e5311b5b867e81208080cc2d47fd8d0621d4e04f2dac3d32bfca9767893fc56",
+      "bytes": 423
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-004-vehicle-type~truck.svg",
+      "sha256": "99b7620f250506b8cf7c62292f93d3ccfb310f0e37aa0a98bc37bd8fd2036694",
+      "bytes": 493
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-004-vehicle-type~two_wheeler.svg",
+      "sha256": "69d72351b32284f7d5769a29ca451a5344524071df5bce0d9b1d68b5d1eba73c",
+      "bytes": 809
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-005-trailer-or-heavy-load-context.svg",
+      "sha256": "badbff04d178cb787b421555005e6b64814025b6dddecbbd18dc15f418ac6b08",
+      "bytes": 667
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-006-vehicle-approach-direction.svg",
+      "sha256": "f3b86f6a469ed936813ee2edab1ce7f4b97c6f349386a55e9bac012bc34c95f0",
+      "bytes": 604
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-007-braking-capability.svg",
+      "sha256": "6294b7431aba88ed826168c3b7190866f1cff2791da5f2246c90336ebdad387f",
+      "bytes": 998
+    },
+    {
+      "path": "pictograms/roados_context/dark/veh-008-vehicle-sensor-availability.svg",
+      "sha256": "9bfdcd810ef62dc68012497254a77ededcaafb4f6417dfe1a24d3a6d64a56f48",
+      "bytes": 484
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-001-current-vehicle-speed.svg",
+      "sha256": "3670ce51c1a8476d052c593e81b5aa893127f3003baaa3b1ddde7112d19bde91",
+      "bytes": 1754
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-002-vehicle-dimensions.svg",
+      "sha256": "c215458f00a244acd13f0003a871cd21e4c4e3c14aef04face9556c8e41ae934",
+      "bytes": 673
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-003-ground-clearance.svg",
+      "sha256": "60b92789df771c9e4c4f2750ac6687a3e27d1e5bcaf09c11d01b20fc5297596c",
+      "bytes": 744
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-004-vehicle-type~bus.svg",
+      "sha256": "28c19b34390c9bf99ab47b22ff3d6e2f2b331a824c05c594f9a8781f599d678a",
+      "bytes": 722
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-004-vehicle-type~car.svg",
+      "sha256": "f7cb468de31bb6e9ac67e3df3ecb2e905f2f2dcf6bef01e1f2cb1cedf0a24147",
+      "bytes": 423
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-004-vehicle-type~truck.svg",
+      "sha256": "fd0d138fcb69cdf938f6c824b0a5c40d7019d5f1cbaad35afb5eb734f557f061",
+      "bytes": 493
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-004-vehicle-type~two_wheeler.svg",
+      "sha256": "735231c263eb1b2942e82dbb3ccba5aa8b7cdfc9af51b2a452a675c9b4d84643",
+      "bytes": 809
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-005-trailer-or-heavy-load-context.svg",
+      "sha256": "09b467e59aac8c97c00cc71612513481bebba5b6fa8f9257aca28cb735e6be7e",
+      "bytes": 667
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-006-vehicle-approach-direction.svg",
+      "sha256": "cb7955c2034012b5d77c1cd535e2a7642292e0dd115fc47000cc8112f95832bc",
+      "bytes": 604
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-007-braking-capability.svg",
+      "sha256": "d53f54196495bea7068c8cb4e4fa04cfef3a21c5643e47617a9754cff7b63a82",
+      "bytes": 998
+    },
+    {
+      "path": "pictograms/roados_context/light/veh-008-vehicle-sensor-availability.svg",
+      "sha256": "9db79639c0e7e643aa951e198fd31aeb750ab47c2c7af748f5742d7e3f0fe693",
+      "bytes": 484
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-001-narrow-bridge.svg",
+      "sha256": "800eab93c012cb15c2eeba36f636ee5a749161281fbd3b2066c194b63c86cef6",
+      "bytes": 371
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-002-damaged-bridge-surface~damaged.svg",
+      "sha256": "7eaeb8c8a995d40f34d57e76cb7fd71a443a823b89e8d530ffcb6eb6eda4144e",
+      "bytes": 938
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-003-broken-bridge-parapet~parapet.svg",
+      "sha256": "3469444ac24b601936c6678fd51df2e1944141f88181c3ea4e641cb7a478b1ad",
+      "bytes": 774
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-004-damaged-expansion-joint.svg",
+      "sha256": "044312ce5f04ecac227d08ed06686145d12942f4d3864495fee09daab569beea",
+      "bytes": 495
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-005-low-clearance-bridge~bridge.svg",
+      "sha256": "6025cac0405fb927f42f57059e0537289b04295ef37c48b81f840442ecf658d7",
+      "bytes": 550
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-006-tunnel-lighting-failure~dark.svg",
+      "sha256": "4a182130ed4fdff38fdf3f50af2f1ec5f800adb100442790802f16456118e83f",
+      "bytes": 534
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-007-steep-bridge-approach~steep.svg",
+      "sha256": "3382df9bf37b57afded88014616a80ea7304e62ef1233cd2c6d7631de640b3c0",
+      "bytes": 656
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-008-damaged-flyover-joint~damaged.svg",
+      "sha256": "49b7fcd58d81b167dfe446c10e29c1d93ee3f8c19b3ca35fa8a9f834d4348d95",
+      "bytes": 821
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-009-flooded-underpass~flooded.svg",
+      "sha256": "1e58907a92b0fe5f67705be0866f3c82dcc21b143bdb2bfab6af630f3a547304",
+      "bytes": 523
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-010-railway-crossing-damage~damaged.svg",
+      "sha256": "42c3000e75450a4cd048c338f4645b9fb416e6be946980d785292723bb964cd7",
+      "bytes": 895
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-011-unprotected-embankment.svg",
+      "sha256": "bf06da825596e6843318920b1426e9c937b0f7e7d2bf1d7606b2b3fb37f97405",
+      "bytes": 657
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-012-landslide.svg",
+      "sha256": "930ae98f88974455f57e62825636599e6939becb8ad658400e03fbcee98cf607",
+      "bytes": 1412
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-013-road-collapse.svg",
+      "sha256": "4aca725923fd50f9a4542409787912d4e636b8e1f7f7454ebe5d91592bc4fada",
+      "bytes": 582
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/brg-014-retaining-wall-damage.svg",
+      "sha256": "cc1955d8f0cff91981e775767a53967d57b6112a79ed1e8238f7d773469c7ca7",
+      "bytes": 1463
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-001-small-stone~boulder.svg",
+      "sha256": "d811f8a4675e23bfa8b98626eace7152a990c6157e3ba8d05628c5403996f8f1",
+      "bytes": 536
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-001-small-stone~large.svg",
+      "sha256": "6b35526e169edd22fbf3567803c30d6f569ca1dd1101c0b90a32cac0ac1bac40",
+      "bytes": 550
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-001-small-stone~medium.svg",
+      "sha256": "489ae61169007d5d54f2c0761b707f2fb2bd3abcac2592e08667be5477688a60",
+      "bytes": 552
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-001-small-stone~small.svg",
+      "sha256": "5d14d187056c25ca8391218f0c03d08aabc7f1ab77bfd33358048196ee16fe85",
+      "bytes": 553
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-002-medium-stone~medium.svg",
+      "sha256": "489ae61169007d5d54f2c0761b707f2fb2bd3abcac2592e08667be5477688a60",
+      "bytes": 552
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-003-large-stone~large.svg",
+      "sha256": "6b35526e169edd22fbf3567803c30d6f569ca1dd1101c0b90a32cac0ac1bac40",
+      "bytes": 550
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-004-boulder~boulder.svg",
+      "sha256": "d811f8a4675e23bfa8b98626eace7152a990c6157e3ba8d05628c5403996f8f1",
+      "bytes": 536
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-005-falling-rock.svg",
+      "sha256": "d006c1d05edd24dbb4ece072330d7d3ca65bd1c2ff7433919bcedef3647eb504",
+      "bytes": 413
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-006-gravel~gravel.svg",
+      "sha256": "f05d2ac408d2bff6a049706c7977ff3ef9fa3ef78321bcf2048edf641e7112ae",
+      "bytes": 1138
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-007-sand~sand.svg",
+      "sha256": "2b270098a7b20180648fd421d3156c1f387c65b4358dd96f9b59d6efd5851fee",
+      "bytes": 459
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-008-soil-pile~soil.svg",
+      "sha256": "4b8fdc60459a6349be22d49e0a85336beec7825fca012c1096d64d86c172f6c5",
+      "bytes": 455
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-009-mud-pile~mud.svg",
+      "sha256": "5a1b65741f785533d0460e2d3d58ac4658631801d36bfc442817dff89995f5ab",
+      "bytes": 552
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-010-fallen-tree.svg",
+      "sha256": "74151db60f33e2d5a2579922af7b8a91b07141750279b6af01e0c1f4df994634",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-011-tree-branch.svg",
+      "sha256": "2e5a2c5178d39b0b9f9fb0d90709b7ecfe3846ed4949755f5d0f49d4a1cb6187",
+      "bytes": 492
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-012-broken-glass.svg",
+      "sha256": "5385f613c844eed5ef5e2a3b33311149fff10f94c514d4651b99db426671a20d",
+      "bytes": 392
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-013-metal-scrap.svg",
+      "sha256": "91c2b87a0d6990a4770329e2b66afb973f0f1a7003dcb074a0189286038e98c6",
+      "bytes": 591
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-014-tyre-on-road.svg",
+      "sha256": "018ce820b69c4a38681da037293c125f7c96b7c3adbac78a794151d8a8c56e97",
+      "bytes": 1421
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-015-vehicle-parts.svg",
+      "sha256": "a5b34a1e895b687e607e0d2869ee909b6d42d96d1787ccfa24b928b1cf0bbc35",
+      "bytes": 634
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-016-garbage.svg",
+      "sha256": "d2fe99afb459dc1eded6f83dfd28e7249a7699652df13408f6d27f87e5657d19",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-017-cargo-spillage.svg",
+      "sha256": "aae97c42bcfc073f38bcc9964ca422e72fa83b198111db2161ec13dd88ee3cbe",
+      "bytes": 623
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-018-animal-carcass.svg",
+      "sha256": "5013bdacb20789171a4acea3f0c3d90af219eb1f90b5686237ada899d50c12f6",
+      "bytes": 552
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-019-fallen-electric-pole.svg",
+      "sha256": "5698865d86cc46b279250102c5fcefe09449b5965323c5597d22068188a25455",
+      "bytes": 711
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/deb-020-displaced-road-furniture.svg",
+      "sha256": "ff91a0268371e3f1baae9baff011bd1a9db8c0c9c92d4e4f894183b645a0fd10",
+      "bytes": 562
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-001-waterlogging.svg",
+      "sha256": "6eb1a3c452410959cc7009b4499784d6123383c97934b033550c2c2d5eb8fff6",
+      "bytes": 571
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-002-flooded-road.svg",
+      "sha256": "9f82f39f2f170cb9368bf0b3de62e5839898ff22b5f4b0bdb9b1ab9437a70cfd",
+      "bytes": 908
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-003-flowing-water-across-road.svg",
+      "sha256": "9e7489b777f36884f9965cd392f29261429639828f8bedff8094cb3770e2c460",
+      "bytes": 932
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-004-water-covered-pothole~water_filled.svg",
+      "sha256": "aa21d346da541f8e90946bddac96e0afd58b357fd2acd3f3c0e8cb841def7d7b",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-005-mud~mud.svg",
+      "sha256": "b79260d7a5ee2bcd58f4010f6b3a4a57687b1e7aebd86385f18251ee5a4ef7ea",
+      "bytes": 449
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-006-slush~slush.svg",
+      "sha256": "348fb1c631a81fec9f98889a9fad83c71b2422e9e629ac8514818aeee8d5ae4c",
+      "bytes": 581
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-007-oil-spill~oil.svg",
+      "sha256": "5b2de34e4fa7224096141120917b80a0802d472bd226499dd82caf8cdfd547ea",
+      "bytes": 649
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-008-fuel-spill~fuel.svg",
+      "sha256": "e0f5637a1baafac92fd786441e07e806c902c9616178e02aebdba079b3531bcb",
+      "bytes": 580
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-009-wet-road.svg",
+      "sha256": "561f1c94e4b6749e3a9ec7518efe0e48d7337ad9669df3d0facbdc9f66f51c3a",
+      "bytes": 636
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-010-loose-sand~sand.svg",
+      "sha256": "23d9c80492ee65f3f0d74d681aa47de0e41bad1cea56cca1fe4d4e2d05702e05",
+      "bytes": 1493
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-011-heavy-rain.svg",
+      "sha256": "c408e1cfc28392ae507e7ddfe654b2e0a6e3ff783bcc11964ebfe96203a6753e",
+      "bytes": 361
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-012-fog~fog.svg",
+      "sha256": "09b40d74e872a91e9f3e4cbc3838c12b7f463c799eb91a564a46691e2d2640c8",
+      "bytes": 544
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-013-dense-fog~dense.svg",
+      "sha256": "d14c3591e2fe52a84dc7e0abc067a92392bea82c7aeb2791644b7bd2f4e6fccd",
+      "bytes": 771
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-014-smoke.svg",
+      "sha256": "13e557fab4d96a5bb3e64a3cfffc7956e38f797ba726a873e0d59c661f316efa",
+      "bytes": 402
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-015-dust.svg",
+      "sha256": "6ff50c98c72bda2a6e3f5f84c1587403e72b2460e9fbca2f430c53c9429ac27a",
+      "bytes": 466
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-016-sun-glare.svg",
+      "sha256": "8915c20c20a814465cb06401343c1766d39296df406144dfb89da6ed640815f4",
+      "bytes": 1623
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-017-poor-night-visibility.svg",
+      "sha256": "f69bf4d04773b2c98f877ad6bd21c0f38af9a06a92373ddeb6af5fa6151a5276",
+      "bytes": 507
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-018-fallen-trees-during-storms.svg",
+      "sha256": "f8bbe290feeea9ba697382917aabcdf796074c2d741f0b00140d66eb984ae7d4",
+      "bytes": 603
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/env-019-strong-crosswind.svg",
+      "sha256": "7379da70d350f9d7764fb8ca7c31deec4555140972968c3f8c2078e58b04e71d",
+      "bytes": 626
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-001-straight-road.svg",
+      "sha256": "be92e2870b2c9ae429bfdfc2a98306c8bff1b5af54cd81f7e9f1d3d08ce4915c",
+      "bytes": 357
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-002-sharp-left-curve~left.svg",
+      "sha256": "88a147de2c53747b66add430d08bf31c9e0ded7e889c401e682ba0f3e52dd230",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-003-sharp-right-curve~right.svg",
+      "sha256": "5e8a57c915de0475bee607c2f021aa38e1cff65cb50e69967f18d3c15ed1c434",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-004-hairpin-bend~left.svg",
+      "sha256": "32e9a0268296e5f8a084769e189a8f341d961104a93712992cb2ec75fd7472fc",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-004-hairpin-bend~right.svg",
+      "sha256": "cd9c05f526fd34843b23f66ed611da0a8e8b84174be1681a7452a4f48739bd62",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-005-s-bend.svg",
+      "sha256": "fde97bcc1bd8b19164418367ed9e8a962f3993b32c748dfe2cbd01ceede0c067",
+      "bytes": 276
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-006-u-turn.svg",
+      "sha256": "be2770db8f16c30bf2019a08e2e153f3eb0f40608f68001e90149d1ac70999c5",
+      "bytes": 268
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-007-t-junction.svg",
+      "sha256": "4c88ce9e89980037d3fedeb7c5c170a4b64c25741ef2591671792142465886c9",
+      "bytes": 211
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-008-y-junction.svg",
+      "sha256": "85df283a14383e327dbca9a230b12aec0dfe59048f6e79a5aad7687dd16e2e3e",
+      "bytes": 225
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-009-four-way-junction.svg",
+      "sha256": "667f8c9b037356462c1e083eec445ae80b57b0452c91b1fcb3e7f084ae086604",
+      "bytes": 210
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-010-roundabout.svg",
+      "sha256": "b1a0c87cd8d7bbc6f7e21139c27bda7551a1dfa1b5889752d1f6cb0890d5bf63",
+      "bytes": 692
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-011-road-narrowing~both.svg",
+      "sha256": "c04358c3cf0c68b8bbb813980f2114c3958ed95818a1ee713afd2c92525736aa",
+      "bytes": 228
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-011-road-narrowing~left.svg",
+      "sha256": "fafe6f9b8438b38f39eba45b40690ab018797f71f65bc7c78305c5b047562a2d",
+      "bytes": 219
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-011-road-narrowing~right.svg",
+      "sha256": "857173f590ab3bcb62fbf0580aac86e6d7e393e32a0c6a841e489a6c0da6d2e0",
+      "bytes": 220
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-012-lane-merging.svg",
+      "sha256": "7b59cfce30b6f804c26f081a696b3f2c858ee44ec65bc66fd5fb3063529aa886",
+      "bytes": 289
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-013-lane-splitting.svg",
+      "sha256": "275dd84cc783cb964ec62742424c21dbace602e8fad77ca6492bfa5c5a0a71ff",
+      "bytes": 311
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-014-flyover~normal.svg",
+      "sha256": "da715f2a2436df1bbedd5a331ec0ff23d166eb08122bfb4de6775780011acab4",
+      "bytes": 619
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-015-underpass~normal.svg",
+      "sha256": "957fcde68081d2513f3deef32d5755baca38dd0bed9f2d404f6cfc86ed3824ee",
+      "bytes": 286
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-016-interchange.svg",
+      "sha256": "28e69ec1760bcc78b26900c05b78cdf3f871ececab7b2a9057aa9a36a9cba3bb",
+      "bytes": 715
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-017-bridge~normal.svg",
+      "sha256": "7f9b1f90904ae04e11c291f9b1d3f3ee03ebc6243e93b1b2d27ef7e0649be412",
+      "bytes": 648
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-018-tunnel~lit.svg",
+      "sha256": "1cf1f307564c6ef6545955135bfa72231fa72aa1e2d6a6b9adf7b71fa1a881f6",
+      "bytes": 446
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-019-steep-uphill~up.svg",
+      "sha256": "429060b93682a66acc195fdb006120b4d81a18a743b76ed04de1d8ed62976237",
+      "bytes": 468
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-020-steep-downhill~down.svg",
+      "sha256": "604388c4e9b82e12c696b926421779a79331a432b180436f800a1b9024fe616d",
+      "bytes": 509
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-021-blind-crest.svg",
+      "sha256": "ca18dcab9a0e7e3c92e4fd3ff2592c6710789b3b4c3d9f94db31e182920c86ad",
+      "bytes": 541
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-022-road-dip.svg",
+      "sha256": "23b992fd61dd1098185a8b8278242ab69a0d30bde361e2cf5aa29ce0dd67cee3",
+      "bytes": 191
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-023-railway-crossing.svg",
+      "sha256": "4b3fe282bd5749d40960b50e26895708de5c1e73a05b1743c0e140490471fb46",
+      "bytes": 620
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-024-missing-shoulder~missing.svg",
+      "sha256": "1d0ec65c5ada47da47fb88dc260c4b915b90e50c6dbb01812ec4ce201561b29d",
+      "bytes": 820
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/geo-025-road-edge-drop.svg",
+      "sha256": "a4e4a30a92377cb8c33bc4963228727bff785fbec6977e659646195d2c0b5972",
+      "bytes": 390
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-001-pedestrian.svg",
+      "sha256": "5000f0c5dcd8653665e4486ea4742279c1e5c69ad27920b2508626deb0376f25",
+      "bytes": 306
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-002-child-pedestrian.svg",
+      "sha256": "93e5d356a93252a1b9b5b09621c3c90d685d531168e375d671c5e38b3870826a",
+      "bytes": 402
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-003-cyclist.svg",
+      "sha256": "48343f513a9de3bb446e017c82e5603be714c9f4e5ca61ad091b795d488c8944",
+      "bytes": 686
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-004-motorcycle.svg",
+      "sha256": "69d72351b32284f7d5769a29ca451a5344524071df5bce0d9b1d68b5d1eba73c",
+      "bytes": 809
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-005-wrong-way-motorcycle~motorcycle.svg",
+      "sha256": "548ed3da2185f8a6f2866737d76c6d6c108b628478cde73439c5b40fb34adf44",
+      "bytes": 680
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-006-wrong-way-car~car.svg",
+      "sha256": "08eae4a28ab9731a4c3a0e206d5d6f538c0db26ee3acad7c7bee637be5b69de3",
+      "bytes": 710
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-007-stopped-car~bus.svg",
+      "sha256": "12a5b3f6a5f9a080e828f2a8a9511181bbc244d86b9548e6134cd12aa3da1d20",
+      "bytes": 907
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-007-stopped-car~car.svg",
+      "sha256": "2202060bb4af6ef2b6632cac12e20f62eca329848b17956368412b594d514c91",
+      "bytes": 608
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-007-stopped-car~truck.svg",
+      "sha256": "77307d07da1e798bd7e33b9859cc7d93bafd8e305f437f603e1f3219c0c6785f",
+      "bytes": 678
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-008-stopped-bus~bus.svg",
+      "sha256": "12a5b3f6a5f9a080e828f2a8a9511181bbc244d86b9548e6134cd12aa3da1d20",
+      "bytes": 907
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-009-stopped-truck~truck.svg",
+      "sha256": "77307d07da1e798bd7e33b9859cc7d93bafd8e305f437f603e1f3219c0c6785f",
+      "bytes": 678
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-010-slow-moving-vehicle.svg",
+      "sha256": "f2f14b1e096f05fe930a9abafa82a219e3209a54266eaf2b3d81d504c9c38d3e",
+      "bytes": 771
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-011-tractor.svg",
+      "sha256": "c55e8b701195fe161b6f84e53536701b884fb25165e7461d0b700d93dcf72afe",
+      "bytes": 585
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-012-animal.svg",
+      "sha256": "92508d6c80bb4340161acd9212e01f3664bf1459a2b38ade59c9314e55b1c154",
+      "bytes": 356
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-013-cow~cow.svg",
+      "sha256": "45a6ab178ca7a8de141dfdfe2ee216c097030b52858bf5d0ff50e286d9d8e3ec",
+      "bytes": 498
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-014-buffalo~buffalo.svg",
+      "sha256": "aef2f9b955af0319a58e1d8508dc9cb3043230909daecf297ccfaaa636041c7d",
+      "bytes": 498
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-015-dog.svg",
+      "sha256": "084c67014b39bbddff330d2e60be1339868354f2b7193a44ad25904a3b6b1792",
+      "bytes": 407
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-016-goat.svg",
+      "sha256": "880473605b447305a42f3e2ac77711704c523d089727913e19f3340dc061248e",
+      "bytes": 589
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-017-animal-herd.svg",
+      "sha256": "24c9ad29979d74bb4f7146707e6aa17ca516181b1f4128f13d849390a842b1ae",
+      "bytes": 1457
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-018-sudden-braking-vehicle~car.svg",
+      "sha256": "92d33af06c66c0ad44bb13eed65bcb9086ba1880b5a87c9f593d8f382768fd87",
+      "bytes": 585
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-019-opening-vehicle-door.svg",
+      "sha256": "90b44bb71611d725e832edfd9573ca0c9da7e28c932a516f0d4d8abda9f221a4",
+      "bytes": 708
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-020-reversing-vehicle.svg",
+      "sha256": "227a15750f37c5dba81e2c390a7da0c7f22e2da1109913e8f12cdb9af76f07e6",
+      "bytes": 797
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-021-vehicle-breakdown.svg",
+      "sha256": "2e908d0a5cb854b4baeb5a56b44e85c81f0c760e7f96b33f0f7c27268567873f",
+      "bytes": 865
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-022-accident-scene.svg",
+      "sha256": "dbf6412494ef573d44f76c74137ec32ebbfddf1e4c1df82f073dc85d82eb1ae1",
+      "bytes": 610
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-023-emergency-vehicle.svg",
+      "sha256": "43f333b8d621872edde565e53fdcaf204b6939c0a4eb3fb746afb44d8910778d",
+      "bytes": 643
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-024-bus-stopping-unexpectedly~bus.svg",
+      "sha256": "a24747d9c8da84f032c53478fed83e83948e5650534b5df06a5ba50ba6701bed",
+      "bytes": 603
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/mov-025-traffic-queue.svg",
+      "sha256": "2674cf1703aa7072caa52d82658c43ea4a51aabf65e7f1eabcfb6f0f28c7c5fa",
+      "bytes": 1310
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-001-small-pothole~deep.svg",
+      "sha256": "2ea354566e34176e5d16a6b409b1b0d364cbcc7ada9ac8c9b0b56e9669a83fae",
+      "bytes": 659
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-001-small-pothole~large.svg",
+      "sha256": "f123332bb77c5ca30a0abb3784afba2e226eced0514a0e55b8d134c05a21179f",
+      "bytes": 602
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-001-small-pothole~medium.svg",
+      "sha256": "4082a971a37a47465b80103676b37f4864922d3fc158233d1e406b8de89b2d23",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-001-small-pothole~small.svg",
+      "sha256": "52aea5a36b564198b4934518f39219c195f36712b7d0e34f233d5f2b735ea147",
+      "bytes": 593
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-001-small-pothole~water_filled.svg",
+      "sha256": "aa21d346da541f8e90946bddac96e0afd58b357fd2acd3f3c0e8cb841def7d7b",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-002-medium-pothole~deep.svg",
+      "sha256": "2ea354566e34176e5d16a6b409b1b0d364cbcc7ada9ac8c9b0b56e9669a83fae",
+      "bytes": 659
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-002-medium-pothole~large.svg",
+      "sha256": "f123332bb77c5ca30a0abb3784afba2e226eced0514a0e55b8d134c05a21179f",
+      "bytes": 602
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-002-medium-pothole~medium.svg",
+      "sha256": "4082a971a37a47465b80103676b37f4864922d3fc158233d1e406b8de89b2d23",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-002-medium-pothole~small.svg",
+      "sha256": "52aea5a36b564198b4934518f39219c195f36712b7d0e34f233d5f2b735ea147",
+      "bytes": 593
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-002-medium-pothole~water_filled.svg",
+      "sha256": "aa21d346da541f8e90946bddac96e0afd58b357fd2acd3f3c0e8cb841def7d7b",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-003-large-pothole~deep.svg",
+      "sha256": "2ea354566e34176e5d16a6b409b1b0d364cbcc7ada9ac8c9b0b56e9669a83fae",
+      "bytes": 659
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-003-large-pothole~large.svg",
+      "sha256": "f123332bb77c5ca30a0abb3784afba2e226eced0514a0e55b8d134c05a21179f",
+      "bytes": 602
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-003-large-pothole~medium.svg",
+      "sha256": "4082a971a37a47465b80103676b37f4864922d3fc158233d1e406b8de89b2d23",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-003-large-pothole~small.svg",
+      "sha256": "52aea5a36b564198b4934518f39219c195f36712b7d0e34f233d5f2b735ea147",
+      "bytes": 593
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-003-large-pothole~water_filled.svg",
+      "sha256": "aa21d346da541f8e90946bddac96e0afd58b357fd2acd3f3c0e8cb841def7d7b",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-004-deep-pothole~deep.svg",
+      "sha256": "2ea354566e34176e5d16a6b409b1b0d364cbcc7ada9ac8c9b0b56e9669a83fae",
+      "bytes": 659
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-004-deep-pothole~large.svg",
+      "sha256": "f123332bb77c5ca30a0abb3784afba2e226eced0514a0e55b8d134c05a21179f",
+      "bytes": 602
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-004-deep-pothole~medium.svg",
+      "sha256": "4082a971a37a47465b80103676b37f4864922d3fc158233d1e406b8de89b2d23",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-004-deep-pothole~small.svg",
+      "sha256": "52aea5a36b564198b4934518f39219c195f36712b7d0e34f233d5f2b735ea147",
+      "bytes": 593
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-004-deep-pothole~water_filled.svg",
+      "sha256": "aa21d346da541f8e90946bddac96e0afd58b357fd2acd3f3c0e8cb841def7d7b",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-005-water-filled-pothole~deep.svg",
+      "sha256": "2ea354566e34176e5d16a6b409b1b0d364cbcc7ada9ac8c9b0b56e9669a83fae",
+      "bytes": 659
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-005-water-filled-pothole~large.svg",
+      "sha256": "f123332bb77c5ca30a0abb3784afba2e226eced0514a0e55b8d134c05a21179f",
+      "bytes": 602
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-005-water-filled-pothole~medium.svg",
+      "sha256": "4082a971a37a47465b80103676b37f4864922d3fc158233d1e406b8de89b2d23",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-005-water-filled-pothole~small.svg",
+      "sha256": "52aea5a36b564198b4934518f39219c195f36712b7d0e34f233d5f2b735ea147",
+      "bytes": 593
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-005-water-filled-pothole~water_filled.svg",
+      "sha256": "aa21d346da541f8e90946bddac96e0afd58b357fd2acd3f3c0e8cb841def7d7b",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-006-multiple-potholes~multiple.svg",
+      "sha256": "eef14b6a6df56cab93d57d9dbb3530a0aba2443d703d291e3496ff660ab7a06b",
+      "bytes": 1614
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-007-long-pothole~long.svg",
+      "sha256": "cb8d0cc15507ad39ff3106d363ae8ef85624d60598258d6a13defc51a0d01bda",
+      "bytes": 597
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-008-edge-pothole~edge.svg",
+      "sha256": "77a6ca183103b8c43defff1dfe75a52eb200b5b16dfcbe1e7e93a4e2e86ce54c",
+      "bytes": 766
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-009-road-cracks.svg",
+      "sha256": "498701d90d3f37359307aeed9a8a65bbba1d020f43736fa0f3d96f70eb89f65b",
+      "bytes": 295
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-010-broken-asphalt.svg",
+      "sha256": "bb629811a71fd8cecdfd6c4ed96e86d3f5b4d94221d6272681a53043880caebc",
+      "bytes": 337
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-011-uneven-resurfacing.svg",
+      "sha256": "c48eb8149a0fb87232a316e8843dcd0f118da98c360113b5be290358011a9f47",
+      "bytes": 445
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-012-sunken-manhole~sunken.svg",
+      "sha256": "b1fd0ca7621d36408fe8c8e84ab830bee5564a36e3c96c6ddd3d4089ba9f66c0",
+      "bytes": 626
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-013-open-manhole~open.svg",
+      "sha256": "9c966e857e2a268ee1e8226d34f3ae648dec8e204c92dd2b8e339fce4e6e21c3",
+      "bytes": 419
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-014-open-drain.svg",
+      "sha256": "9837d241d95c0539e44fe5176efad27847eca0bf1c7732c05dfed698b2462eb4",
+      "bytes": 535
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-015-broken-drain-cover.svg",
+      "sha256": "63b3cdfcb52ed14726deb11967c19ee9d0983f6e56a8294a8114439f2b82f29b",
+      "bytes": 968
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-016-road-depression.svg",
+      "sha256": "09987fd2881c68a4d19656ffb554209f0ff2badd1ed89dbe6f7fba33e7545a49",
+      "bytes": 366
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-017-road-rutting.svg",
+      "sha256": "28b7e7d3375fb86676e4e108c7d4b27221f76308a29049b4647317b1d2349e3d",
+      "bytes": 423
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-018-road-erosion.svg",
+      "sha256": "517087f7923bf00b4fdfc39aa49784d79e888c758954015bb62d230ae6896127",
+      "bytes": 451
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-019-broken-concrete.svg",
+      "sha256": "5ad69807328ac72d94653a54c90280ad60f598b05afbd8b07ad6b714b5abb9b4",
+      "bytes": 449
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-020-damaged-bridge-joint.svg",
+      "sha256": "044312ce5f04ecac227d08ed06686145d12942f4d3864495fee09daab569beea",
+      "bytes": 495
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-021-road-subsidence.svg",
+      "sha256": "b43da4f9e4bba8e029e65a81a5d91ad3730ed0e6140e410453cf62384ea79c5c",
+      "bytes": 452
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rdm-022-shoulder-drop-off.svg",
+      "sha256": "a4e4a30a92377cb8c33bc4963228727bff785fbec6977e659646195d2c0b5972",
+      "bytes": 390
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-001-stop.svg",
+      "sha256": "742bc56c4264edeac0722d99825d073a94b94a613deaa03b07e8dfdc7f9eda3a",
+      "bytes": 377
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-002-give-way.svg",
+      "sha256": "79a9bc2b8a33cae0785e38ed84197e7e4a8146a6e2a7bcc4db766d95cdfe209a",
+      "bytes": 190
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-003-no-entry.svg",
+      "sha256": "e6e990bf046b005647275cc440c3f82566b82947f78f2cc3437d86480a0b9695",
+      "bytes": 203
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-004-one-way.svg",
+      "sha256": "ab37ab4eb2dae8b1a5a14d7e63a007401ccd14eee1668ccd5370edfea31e2379",
+      "bytes": 250
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-005-no-parking.svg",
+      "sha256": "b0dd720b2932f1fd92cc28cb512aba86b1430ed110bf0d97c50b1f9d80bbdb90",
+      "bytes": 274
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-006-no-stopping.svg",
+      "sha256": "66021f999f8bf3ba06a045725b63a7add8e2c07d938efc8f18ae0259126ca537",
+      "bytes": 300
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-007-no-overtaking.svg",
+      "sha256": "103b5b00d7a62975712ad85617f826ff1dc6f41e1cf929413b45f51fb3b83efa",
+      "bytes": 905
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-008-no-u-turn.svg",
+      "sha256": "be2770db8f16c30bf2019a08e2e153f3eb0f40608f68001e90149d1ac70999c5",
+      "bytes": 268
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-009-speed-limit.svg",
+      "sha256": "59eefb1ee8cfe2db30e4a6c71d3667030a3aa555cac09fa327673c22ff02e692",
+      "bytes": 356
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-010-height-restriction.svg",
+      "sha256": "69b65e806ff82d84eb28751a3ae7405bd9f65e418a77c5607c6f7e701389a86a",
+      "bytes": 338
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-011-width-restriction.svg",
+      "sha256": "65f8262fc2eae8cc1a8602e571732453c0dd9b70751b22f2f37928aed1c22504",
+      "bytes": 336
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-012-weight-restriction.svg",
+      "sha256": "c07eaa1ab8c24727bd70df83dcad0797d53244afd01a52da5b870d6ac35547e5",
+      "bytes": 486
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-013-sharp-left-bend~left.svg",
+      "sha256": "88a147de2c53747b66add430d08bf31c9e0ded7e889c401e682ba0f3e52dd230",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-014-sharp-right-bend~right.svg",
+      "sha256": "5e8a57c915de0475bee607c2f021aa38e1cff65cb50e69967f18d3c15ed1c434",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-015-hairpin-bend~left.svg",
+      "sha256": "32e9a0268296e5f8a084769e189a8f341d961104a93712992cb2ec75fd7472fc",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-015-hairpin-bend~right.svg",
+      "sha256": "cd9c05f526fd34843b23f66ed611da0a8e8b84174be1681a7452a4f48739bd62",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-016-dangerous-dip.svg",
+      "sha256": "23b992fd61dd1098185a8b8278242ab69a0d30bde361e2cf5aa29ce0dd67cee3",
+      "bytes": 191
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-017-speed-breaker~sign.svg",
+      "sha256": "c70ae8e576837b3a4e0fddee7f5202d14a8e917acba40c0e0dde438ab46ed660",
+      "bytes": 268
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-018-rough-road.svg",
+      "sha256": "dc178d6174ac9a9cb70e25aae68adf3b877dbdcc5527e16c9812ccaccd4c78e5",
+      "bytes": 311
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-019-loose-gravel.svg",
+      "sha256": "c9392e712a1bd094bff5a3ce65476cfe18ab40ba81d48cfff95e9b525dcbea09",
+      "bytes": 877
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-020-falling-rocks.svg",
+      "sha256": "d006c1d05edd24dbb4ece072330d7d3ca65bd1c2ff7433919bcedef3647eb504",
+      "bytes": 413
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-021-narrow-bridge.svg",
+      "sha256": "800eab93c012cb15c2eeba36f636ee5a749161281fbd3b2066c194b63c86cef6",
+      "bytes": 371
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-022-narrow-road.svg",
+      "sha256": "d035913687aab2d0267dc02dc65d3f2c7eb551a53d973bd79b2479a741baad03",
+      "bytes": 271
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-023-road-narrows~both.svg",
+      "sha256": "c04358c3cf0c68b8bbb813980f2114c3958ed95818a1ee713afd2c92525736aa",
+      "bytes": 228
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-023-road-narrows~left.svg",
+      "sha256": "fafe6f9b8438b38f39eba45b40690ab018797f71f65bc7c78305c5b047562a2d",
+      "bytes": 219
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-023-road-narrows~right.svg",
+      "sha256": "857173f590ab3bcb62fbf0580aac86e6d7e393e32a0c6a841e489a6c0da6d2e0",
+      "bytes": 220
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-024-slippery-road.svg",
+      "sha256": "962dbd94d975045b8f9cb2ecae0a0ea28a0e66f7cefd71fe3e5efd7c3d9b03a4",
+      "bytes": 662
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-025-crossroads.svg",
+      "sha256": "667f8c9b037356462c1e083eec445ae80b57b0452c91b1fcb3e7f084ae086604",
+      "bytes": 210
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-026-t-junction.svg",
+      "sha256": "4c88ce9e89980037d3fedeb7c5c170a4b64c25741ef2591671792142465886c9",
+      "bytes": 211
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-027-y-junction.svg",
+      "sha256": "85df283a14383e327dbca9a230b12aec0dfe59048f6e79a5aad7687dd16e2e3e",
+      "bytes": 225
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-028-roundabout.svg",
+      "sha256": "b1a0c87cd8d7bbc6f7e21139c27bda7551a1dfa1b5889752d1f6cb0890d5bf63",
+      "bytes": 692
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-029-pedestrian-crossing.svg",
+      "sha256": "c8705ab5e004165104fdb4281a980206386bcdfedf6c79e667ad43bb7e4199cc",
+      "bytes": 704
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-030-school-ahead.svg",
+      "sha256": "c300d31f8816cf3262ca5091e6477ff2612bdc5106816b3b1ae0cc8fc8f6345d",
+      "bytes": 662
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-031-cattle-crossing.svg",
+      "sha256": "45a6ab178ca7a8de141dfdfe2ee216c097030b52858bf5d0ff50e286d9d8e3ec",
+      "bytes": 498
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-032-railway-crossing.svg",
+      "sha256": "4b3fe282bd5749d40960b50e26895708de5c1e73a05b1743c0e140490471fb46",
+      "bytes": 620
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-033-hospital.svg",
+      "sha256": "4ce9b0c83ac70ee7134dcd76e1f04ae1a8f36a0818f245156a985c5a0534c280",
+      "bytes": 223
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-034-parking.svg",
+      "sha256": "e50e29fa30d5a47a79da6bf5e1dc8c07370f5499759bab275ee35bfd91781020",
+      "bytes": 274
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-035-fuel.svg",
+      "sha256": "19d70a502649c0ab3ee66a902e8c969128f8906147024b9efd1118b2d20ec277",
+      "bytes": 430
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-036-bus-stop.svg",
+      "sha256": "553cf1f865c63970ace610424495f57fe9bd9a56acb41cdf030b26bf4b959022",
+      "bytes": 722
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/rsg-037-destination-and-direction-signs.svg",
+      "sha256": "3e61f046ebf8abb5cd7ca16c6178ca9824eec9ca443b13dd29721a74b8f85c50",
+      "bytes": 896
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-001-normal-speed-breaker~high.svg",
+      "sha256": "f688334ea54d109536b469bb411caffdc2f434b6c203e3e9d782b63ae94f4e86",
+      "bytes": 588
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-001-normal-speed-breaker~marked.svg",
+      "sha256": "f210fda1ea55c91f4abfbf65bcbc7b5a55d9bd73c0bc98a89a8e4d07e00e5586",
+      "bytes": 595
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-001-normal-speed-breaker~medium.svg",
+      "sha256": "06a02a3762bf7809f3739952732129399e0a5e39f7e45eaafbe136f2b663f369",
+      "bytes": 579
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-001-normal-speed-breaker~small.svg",
+      "sha256": "84ff9774a782b4d4cae2e8637ab75d397f0d0e11114050125eca6bf742333f18",
+      "bytes": 532
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-001-normal-speed-breaker~unmarked.svg",
+      "sha256": "232f63b71c4e3cac17db81c5d9ad066a7e43ad7398b5f51d524cae296556a6c4",
+      "bytes": 484
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-002-small-speed-breaker~small.svg",
+      "sha256": "84ff9774a782b4d4cae2e8637ab75d397f0d0e11114050125eca6bf742333f18",
+      "bytes": 532
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-003-medium-speed-breaker~medium.svg",
+      "sha256": "06a02a3762bf7809f3739952732129399e0a5e39f7e45eaafbe136f2b663f369",
+      "bytes": 579
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-004-high-speed-breaker~high.svg",
+      "sha256": "f688334ea54d109536b469bb411caffdc2f434b6c203e3e9d782b63ae94f4e86",
+      "bytes": 588
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-005-unmarked-speed-breaker~unmarked.svg",
+      "sha256": "232f63b71c4e3cac17db81c5d9ad066a7e43ad7398b5f51d524cae296556a6c4",
+      "bytes": 484
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-006-oversized-hump~oversized.svg",
+      "sha256": "8804abdf663b139a9ba081d26aa9b664c946a7d47f7693c3d0bb7f4520f9d5f5",
+      "bytes": 590
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-007-sharp-edged-hump~sharp.svg",
+      "sha256": "7044e638219d64a6dda9e1d93127f9f76b47f8f4cb5d21b292294ccd0e80818d",
+      "bytes": 426
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-008-broken-speed-breaker~broken.svg",
+      "sha256": "6a3bf47b8d4c4bd4878a147caa16ca0564b99b7dbc875f457475a92bd7400d39",
+      "bytes": 581
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-009-multiple-speed-breakers~multiple.svg",
+      "sha256": "0dc7d266442c2bd79f927a22218183bc8ada4e413df71243dd61fc20534dfc0d",
+      "bytes": 1189
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-010-rumble-strips.svg",
+      "sha256": "0795bf11b9775126ffca1d217b129bfaba717a72ae5e0fe0d6129619d1dbf2dd",
+      "bytes": 718
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-011-raised-pedestrian-crossing.svg",
+      "sha256": "7eef51f11370770307e7f4e3377c4dfa9db69d31073f3868be1859aded1c5234",
+      "bytes": 578
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-012-speed-cushion.svg",
+      "sha256": "8b0f88bd4eb5335861d71b450c502a17a727d01fbc692a8de8d74e7c96234aee",
+      "bytes": 539
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-013-sudden-road-elevation.svg",
+      "sha256": "b3e7fc7c9b8fa523f3d0f25786031cab013ec51bfb089b3c746aaada3a14b1d3",
+      "bytes": 294
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/spd-014-railway-crossing-hump.svg",
+      "sha256": "3937417adc8d37e3ebb153ce9e29f1826b6b52826e5215cafbb563419b6450b8",
+      "bytes": 562
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-001-traffic-cone~fallen.svg",
+      "sha256": "34ebb4fe022fa07e053b8861b861395784b62bf4fee740b9863ca9ac4467b8e0",
+      "bytes": 438
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-001-traffic-cone~multiple.svg",
+      "sha256": "dff453a87de52675eb81b003b9485c9c8862b5d171894b435895eb019e0eabe4",
+      "bytes": 775
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-001-traffic-cone~single.svg",
+      "sha256": "fe09dac1a57d7ff67356ad470d4b945a8d1a041c87064ea75fd9459c8a33b39b",
+      "bytes": 271
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-002-multiple-traffic-cones~multiple.svg",
+      "sha256": "dff453a87de52675eb81b003b9485c9c8862b5d171894b435895eb019e0eabe4",
+      "bytes": 775
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-003-fallen-traffic-cone~fallen.svg",
+      "sha256": "34ebb4fe022fa07e053b8861b861395784b62bf4fee740b9863ca9ac4467b8e0",
+      "bytes": 438
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-004-plastic-barricade~metal.svg",
+      "sha256": "61a7dceb8dfa11e6da3c4e6b49b572d675496ad60271d2284b999d1c87a28ac5",
+      "bytes": 1241
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-004-plastic-barricade~plastic.svg",
+      "sha256": "9394e6c443ed05f3a11a432fee158adbe2c10197ce0f81e84d1b2cbc383f182a",
+      "bytes": 750
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-004-plastic-barricade~water_filled.svg",
+      "sha256": "4f78fcf1dc129e6fddfc841b7816920f58ea4bef72192807d66c86e53ce57ee8",
+      "bytes": 427
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-005-water-filled-barricade~water_filled.svg",
+      "sha256": "4f78fcf1dc129e6fddfc841b7816920f58ea4bef72192807d66c86e53ce57ee8",
+      "bytes": 427
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-006-metal-barricade~metal.svg",
+      "sha256": "61a7dceb8dfa11e6da3c4e6b49b572d675496ad60271d2284b999d1c87a28ac5",
+      "bytes": 1241
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-007-concrete-barrier.svg",
+      "sha256": "ecf7ea5866e784822b82e31c5fbdf0c62618e98568a291143bc1aafb9f648753",
+      "bytes": 378
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-008-yellow-construction-board.svg",
+      "sha256": "9198d796d61e5b18010ddb7420a8bf2770d53f156492890931e9b0b9fdb713c6",
+      "bytes": 650
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-009-temporary-warning-board.svg",
+      "sha256": "6a9254ba87a3e78d3ebbbbe8e2679761eaa412c57ca4deafd4f096c4f14ca073",
+      "bytes": 474
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-010-fallen-signboard.svg",
+      "sha256": "c0dbfa024b5b75dae349ce8e9991465e5aaaa9a54bd9366e6b65c1de3b7adf5e",
+      "bytes": 574
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-011-construction-fencing.svg",
+      "sha256": "650ff7c035c11397bf92ec8584da01e6908ec215e6c95238bdb296778d8b5fe5",
+      "bytes": 1189
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-012-excavator.svg",
+      "sha256": "ca1c561dc11eb1768f90a2d154084d44067be021575e3cce201b194b33a344d7",
+      "bytes": 611
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-013-road-roller.svg",
+      "sha256": "987a1ee4ed43d3f6983daf06a4edef8761e5b13e4b120d437a374b02ddbcacf1",
+      "bytes": 610
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-014-construction-material.svg",
+      "sha256": "e06df388c6d28349a3385c9189ce20de624408bfa4b9f366272e9c793b466761",
+      "bytes": 648
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-015-open-excavation.svg",
+      "sha256": "96d55ba852f3f5056e43c594a3876d4edee108d7ccd825ac2b8ce279d054f602",
+      "bytes": 545
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-016-temporary-road-ramp.svg",
+      "sha256": "4a3daafbbf7d582f998ec61daf31cee811784bf19c556f238cd8e0278862c16d",
+      "bytes": 440
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-017-cable-across-road.svg",
+      "sha256": "09ef998d4914d3fd2cff2b3d67b3fa51c21b46d6171319a883310faeb4e3180e",
+      "bytes": 486
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-018-temporary-diversion.svg",
+      "sha256": "0d31b206ff81fc00a1aa497adfb53328df0c3957f76b9a141b4ffa076bac55a6",
+      "bytes": 596
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/tmp-019-temporary-lane-closure.svg",
+      "sha256": "adee2402d156131ffcb4df37f0cf9d9d30e1a1373fe380fd6fa79dce7fe8fd2e",
+      "bytes": 1016
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-001-missing-streetlight~missing.svg",
+      "sha256": "f588e82c3eaeee387c8937287a9caad9524d7096a1545f4d644e0e89e499e0bb",
+      "bytes": 567
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-002-failed-streetlight~failed.svg",
+      "sha256": "e32f88ca9e52f4110b6c1a2e256b201b92066f0c1fb0b0bcf1775b00a48293ff",
+      "bytes": 497
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-003-hidden-traffic-sign.svg",
+      "sha256": "5fab4ecb8ec2fcc3034f2729d387f497e49933c84b0e96e18a4d57229108400b",
+      "bytes": 445
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-004-missing-warning-sign.svg",
+      "sha256": "2a42430439d346cda53676aae7a53960bc45605bf09b6e92d0b59e45fceef388",
+      "bytes": 534
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-005-faded-road-markings~faded.svg",
+      "sha256": "cf69ca91a84104ede9e65789ea82193bed4d36739bf14f0f926cb880e2f98eb3",
+      "bytes": 557
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-006-missing-lane-markings~missing.svg",
+      "sha256": "51eb945dfe7c84827fba5ddc4a07f0e1cdd3102d67f847bb5ab19500326a5f71",
+      "bytes": 477
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-007-missing-reflectors.svg",
+      "sha256": "914d639c72cd605093d490ac65f6577c6b93e22bbdb61f050685a5222facecc6",
+      "bytes": 704
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-008-damaged-signboard.svg",
+      "sha256": "854f25e8b3bb08200c766a58f452a19a90333e628105aaebef7ffafa152c3940",
+      "bytes": 590
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-009-vegetation-obstruction.svg",
+      "sha256": "ab54f1851af2d984ac14f8d73b9a8435eab12cdfe1cf47296b2995eb2ce1ba99",
+      "bytes": 464
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-010-blind-junction.svg",
+      "sha256": "1d7c324c4164ae4c698fb1076bbc808b00e7211ba3208afb42017137887bbd57",
+      "bytes": 660
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-011-restricted-sight-distance.svg",
+      "sha256": "875f2a3dc66ab7022eea756ee5cf241defcd398a4e4e1308dbdd9d615005cc73",
+      "bytes": 441
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-012-low-overhead-clearance~overhead.svg",
+      "sha256": "97b7956f9cb8d8cef64a6e778ff8a20f0ffffd41d6a28a4e983f1a31901d4b0c",
+      "bytes": 617
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-013-narrow-shoulder~narrow.svg",
+      "sha256": "c2bcd753e97c5c3d63f62d155073d0e2a5f66d3f50151653a2b5ad9ff45b6ec9",
+      "bytes": 585
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-014-roadside-encroachment.svg",
+      "sha256": "85ef96f3e362729cab1bcc673b981b2f280bdae9615a695fe760cec31617d41e",
+      "bytes": 699
+    },
+    {
+      "path": "pictograms/roados_hazard/dark/vis-015-unprotected-embankment.svg",
+      "sha256": "bf06da825596e6843318920b1426e9c937b0f7e7d2bf1d7606b2b3fb37f97405",
+      "bytes": 657
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-001-narrow-bridge.svg",
+      "sha256": "c861c597969c671387f92812183e2cefcb58f3c84c4533a2d31ed7200983c7b0",
+      "bytes": 371
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-002-damaged-bridge-surface~damaged.svg",
+      "sha256": "c100cc11047b41126b00efd27345759902fe0a75aa8669637469a998f2d375f1",
+      "bytes": 938
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-003-broken-bridge-parapet~parapet.svg",
+      "sha256": "ffc7d34b47de01c5f0d780ed1e1efc0a663464942a9d0fa7df47ea460d465dd2",
+      "bytes": 774
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-004-damaged-expansion-joint.svg",
+      "sha256": "9df72484e1c13a267a870ff2aec8c320770782327b7df554587a14920f18ec50",
+      "bytes": 495
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-005-low-clearance-bridge~bridge.svg",
+      "sha256": "f8c870d9199f5f82e4e4806756f7034e1581970d879a286d3017a2c7bcda771b",
+      "bytes": 550
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-006-tunnel-lighting-failure~dark.svg",
+      "sha256": "21c41808e0f7046cc751f633e4a9dbaad4d4a30425a6d1399bfab20743b84be3",
+      "bytes": 534
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-007-steep-bridge-approach~steep.svg",
+      "sha256": "1bd7b4d98ce2ee742f590309e5e2dac2a6ddfe8ea5c7551caba3c710b38d2fe6",
+      "bytes": 656
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-008-damaged-flyover-joint~damaged.svg",
+      "sha256": "8938a5376d0a2156eb9091795a58a44c584d9aef3d3dbebbe69660fd8e0d8959",
+      "bytes": 821
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-009-flooded-underpass~flooded.svg",
+      "sha256": "14d8ce0d57afd02bfddecdafdd7d53511750e61af4f99ce97c48768cb2948e2e",
+      "bytes": 523
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-010-railway-crossing-damage~damaged.svg",
+      "sha256": "d07b36c432eb5dd8a7aca2b995ce248360e952e7eee618cdb041c29b386f4a34",
+      "bytes": 895
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-011-unprotected-embankment.svg",
+      "sha256": "6dd082619c1fdf56bfc708e2884f772ab9a0be4fdc11871754c7a16f5e0f9d4e",
+      "bytes": 657
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-012-landslide.svg",
+      "sha256": "30359759efc73b0eac80359132113cbf858ac00be1f3048d1dd1c3870b6866a7",
+      "bytes": 1412
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-013-road-collapse.svg",
+      "sha256": "411a64ed15bbac457f9a8ca8bdc4b418c226a097fea2e610ac0e7833a0b7db7f",
+      "bytes": 582
+    },
+    {
+      "path": "pictograms/roados_hazard/light/brg-014-retaining-wall-damage.svg",
+      "sha256": "7f9468ab038c5204f3acaed723a417b346dad4ec6c0a7e0395886da1a7045d96",
+      "bytes": 1463
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-001-small-stone~boulder.svg",
+      "sha256": "44a4dc812ef4c5d28216acb9592d063b46410b8c80b51c2068bbe3962765299f",
+      "bytes": 536
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-001-small-stone~large.svg",
+      "sha256": "7d482e18cc407c80d82bf8c4907d88d3f4dae002d75fa8ccabf847225451bfc2",
+      "bytes": 550
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-001-small-stone~medium.svg",
+      "sha256": "ad2a7c0e40cb2b84955e7f4b3012404b4fbc0ea657b9e4ea185f9c7016db4815",
+      "bytes": 552
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-001-small-stone~small.svg",
+      "sha256": "1056d11c422b08a68a38b2349a46f2f6ec84acbc8843181570682bb457a3b6ec",
+      "bytes": 553
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-002-medium-stone~medium.svg",
+      "sha256": "ad2a7c0e40cb2b84955e7f4b3012404b4fbc0ea657b9e4ea185f9c7016db4815",
+      "bytes": 552
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-003-large-stone~large.svg",
+      "sha256": "7d482e18cc407c80d82bf8c4907d88d3f4dae002d75fa8ccabf847225451bfc2",
+      "bytes": 550
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-004-boulder~boulder.svg",
+      "sha256": "44a4dc812ef4c5d28216acb9592d063b46410b8c80b51c2068bbe3962765299f",
+      "bytes": 536
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-005-falling-rock.svg",
+      "sha256": "8cd8ba2c26e2fcdb86b768061c765146ff88ba52887fdfa9539f5e18bc1a7a2b",
+      "bytes": 413
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-006-gravel~gravel.svg",
+      "sha256": "cfe57bd7035404cc02dadcd7cd939922061d41571c6047a67a5df3c5d7088bd8",
+      "bytes": 1138
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-007-sand~sand.svg",
+      "sha256": "5b3968a596d9b0b0338c5934acff7e543c2f5944028bc3c7c6cf915cf7850bf1",
+      "bytes": 459
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-008-soil-pile~soil.svg",
+      "sha256": "23a355aee0cb6bf73b6a736e898f5e620149ab320569c88c7ab65ddb0c6d93f7",
+      "bytes": 455
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-009-mud-pile~mud.svg",
+      "sha256": "38078005dd93b1076ed51456dd01623a6b9eb0079e6ea8facbd451f9db636e6b",
+      "bytes": 552
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-010-fallen-tree.svg",
+      "sha256": "e0da785ceb083fb108c36562f273e5349cb1c71be881a950fec8630434386df5",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-011-tree-branch.svg",
+      "sha256": "568470ff61eed489fe720bda2a5d90c18f261347aacbdc5f7a80b3729a8dd206",
+      "bytes": 492
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-012-broken-glass.svg",
+      "sha256": "18c35d945e697500a9d88c220b86ed307d95504757b24a6ee0236d6980697cd7",
+      "bytes": 392
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-013-metal-scrap.svg",
+      "sha256": "4bde84f8f853bf08f764b5e2a5ce840ccfcd615bc2b0d8941205ead2984f06b7",
+      "bytes": 591
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-014-tyre-on-road.svg",
+      "sha256": "5606de45d0564283774b050257ac1134727d0b6a130f61610484737736cc0f8f",
+      "bytes": 1421
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-015-vehicle-parts.svg",
+      "sha256": "0e4a6263ff0a5cda60f6fb13e3a58cc9f90cd06a31c6bac95acac868ae0ea15e",
+      "bytes": 634
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-016-garbage.svg",
+      "sha256": "adc40ebffdfd8f95ed130e7982ad396ab7100f54711e927aadd1a22290808e02",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-017-cargo-spillage.svg",
+      "sha256": "78affb0e7f31a268642edb0be8c3a439c44a729180ed81d04d7a0a1c2c08a83e",
+      "bytes": 623
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-018-animal-carcass.svg",
+      "sha256": "6a9709261e9addd541957c58cd87c4cdd65a45d28215b604fd34576dd80df982",
+      "bytes": 552
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-019-fallen-electric-pole.svg",
+      "sha256": "a5d0232fe0e0872b2f865fb16b5905dcfba9b27ed2ee58c4af23eb11433d02ff",
+      "bytes": 711
+    },
+    {
+      "path": "pictograms/roados_hazard/light/deb-020-displaced-road-furniture.svg",
+      "sha256": "c198ad3426e310522b688b16d14315077aeee4567a43f25022f8f67d89acd418",
+      "bytes": 562
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-001-waterlogging.svg",
+      "sha256": "1867daede4eb1f239c3c58c5253f2277c45c5aa7fca1e1941e2a2e55068bdc7d",
+      "bytes": 571
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-002-flooded-road.svg",
+      "sha256": "6646175c939e4baedfde1f36fd84940835493219dd1c38cd44bc560a74613dad",
+      "bytes": 908
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-003-flowing-water-across-road.svg",
+      "sha256": "f68cc3d3418970b037ec8e2d668180c0d3a0f144118d94bbfd8c4d841904550f",
+      "bytes": 932
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-004-water-covered-pothole~water_filled.svg",
+      "sha256": "14fc8f36872e47f61a3dd93ecc265e7d8dc93ed9f4671396106cab5f21e328c8",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-005-mud~mud.svg",
+      "sha256": "6ca5995c57183ddea5e4958e3fc3e1d93a718d55a580412a67148e98dfa20fbc",
+      "bytes": 449
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-006-slush~slush.svg",
+      "sha256": "329670576e10554896ad015dd0c844e05297f4097d695104f0fa327b12696496",
+      "bytes": 581
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-007-oil-spill~oil.svg",
+      "sha256": "b66666d1d8249ba6c3765445fd786f6a7784d486e70e57d743d106ee8ccdf15e",
+      "bytes": 649
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-008-fuel-spill~fuel.svg",
+      "sha256": "e0f5637a1baafac92fd786441e07e806c902c9616178e02aebdba079b3531bcb",
+      "bytes": 580
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-009-wet-road.svg",
+      "sha256": "db38559fab53fb8fcbc302927aafaa605ecbd16ca8f21768b30f9dfb7850c9bc",
+      "bytes": 636
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-010-loose-sand~sand.svg",
+      "sha256": "14a8eaba5f24a13eca0f16e67e0c33589941596b28810eb1d243dda112e0e0f4",
+      "bytes": 1493
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-011-heavy-rain.svg",
+      "sha256": "e84d46d857a7d2df7dc404822281f41e812aa52db945da44bd5a0c783f2fca91",
+      "bytes": 361
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-012-fog~fog.svg",
+      "sha256": "0dd8e362d9682ea7993a3a1b4ccc06e12185437ad6cdd71bcf81f01f66e5f084",
+      "bytes": 544
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-013-dense-fog~dense.svg",
+      "sha256": "4c3c208fecdd17ba89e7dec3692ab718d6ee5ad7c1e5516a87ecf15540f5fe69",
+      "bytes": 771
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-014-smoke.svg",
+      "sha256": "2fc86b383e534addf583e073d652cf7738668cc796adc22b6f236b2df24b0b57",
+      "bytes": 402
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-015-dust.svg",
+      "sha256": "6ff50c98c72bda2a6e3f5f84c1587403e72b2460e9fbca2f430c53c9429ac27a",
+      "bytes": 466
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-016-sun-glare.svg",
+      "sha256": "8f9e92c6107c8c9e456daebbd79597bfd4768a34df2d606917753ff32c96388e",
+      "bytes": 1623
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-017-poor-night-visibility.svg",
+      "sha256": "5650b314d7da9f3010b4f2f7c8f334e4f0ed94db07159d65d7f623eb1e66d974",
+      "bytes": 507
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-018-fallen-trees-during-storms.svg",
+      "sha256": "1f67aa8e602d61a39aec313015257276e4af1886b664724f78d81ee326af8ae8",
+      "bytes": 603
+    },
+    {
+      "path": "pictograms/roados_hazard/light/env-019-strong-crosswind.svg",
+      "sha256": "e47d5bea78ad9893a3dd4e026a4b58f69e0d012db11ed3af17cb3e218c28bc85",
+      "bytes": 626
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-001-straight-road.svg",
+      "sha256": "baa8819fe0e57a55f7d3a3f7c47ff557677cab045923151b09f8b723b84a9a92",
+      "bytes": 357
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-002-sharp-left-curve~left.svg",
+      "sha256": "723edd3c5d89923b40a3599a375296e22a753298e506f327ac8cdddaaf656b90",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-003-sharp-right-curve~right.svg",
+      "sha256": "69ac37384061e5256a33f88e3ceceed94badb7000a12c9bc93e3a97e0352b33a",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-004-hairpin-bend~left.svg",
+      "sha256": "001a3864333373495cb8566f45c00e283d19ae6836d42fe808b0669bcb5a2cb1",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-004-hairpin-bend~right.svg",
+      "sha256": "512a0bdfd05b9b93a46f8ee35375d044f7efa0f9537e3d3376a51013ce23f187",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-005-s-bend.svg",
+      "sha256": "70b4226d8c36e23fdc79ff9fbe7d80da562ee4b4d843650331985b662cd2525e",
+      "bytes": 276
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-006-u-turn.svg",
+      "sha256": "32af015945451e767c087bd4c6f24e6588401a1efbefd5a64a370989ff395e10",
+      "bytes": 268
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-007-t-junction.svg",
+      "sha256": "acac7ac945b4f6388f0693215edbae22d6ff1ce0c826c3737027317e8020059b",
+      "bytes": 211
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-008-y-junction.svg",
+      "sha256": "73fe7d550ad8aab900714f915501706ce7596507be3af40aac325ee5711cc3af",
+      "bytes": 225
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-009-four-way-junction.svg",
+      "sha256": "cfe4a4c2efcc8602484a5fca2a030ce240c207377081d0078193e0bb0b984e6e",
+      "bytes": 210
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-010-roundabout.svg",
+      "sha256": "fb09195b21c0ed08a249ee3a98d2f31acb9558bb3329484b51750287516a7a6b",
+      "bytes": 692
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-011-road-narrowing~both.svg",
+      "sha256": "c05c736106d5046c51de75304dd8305ce8e551b7e67ff25a8038c028f8f40b51",
+      "bytes": 228
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-011-road-narrowing~left.svg",
+      "sha256": "8bc5ea20122332eb38c62997623ce0a787e8f9b288bbfa37836098aef534fd03",
+      "bytes": 219
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-011-road-narrowing~right.svg",
+      "sha256": "7877bd911744e2f3f640830eb7491a1b16ea2fc7dbb3d8bc730a9ba00d76542f",
+      "bytes": 220
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-012-lane-merging.svg",
+      "sha256": "5625bbf08edc06269d793c908d5225c229a1212ce0f5e9721fb136a9290ed909",
+      "bytes": 289
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-013-lane-splitting.svg",
+      "sha256": "3eae70bf99db3c9c86931c45646a509d1f9712837d187c31f838f8c54ad7279a",
+      "bytes": 311
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-014-flyover~normal.svg",
+      "sha256": "d8c7aa838771b079e3068e454cfe7ce6af8ec3be71799001bb994db30d766564",
+      "bytes": 619
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-015-underpass~normal.svg",
+      "sha256": "447bf5ddb73b1fb41f14e5581f37b0bf864257f95a97f73f34a1355fbb4a064a",
+      "bytes": 286
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-016-interchange.svg",
+      "sha256": "55c6434ef05706c8f9e601e00e84697c7272d2cee2ce18adc8869801a5fcebb6",
+      "bytes": 715
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-017-bridge~normal.svg",
+      "sha256": "c7dbfc738c859294bbe0e60d9ae845f0945bf7e7e1ef1b5e64bd91e79c2af056",
+      "bytes": 648
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-018-tunnel~lit.svg",
+      "sha256": "2f670bb9fe6aef5bdfe6f6719c8d2d539c5d144495589b3803c7cb81429b9123",
+      "bytes": 446
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-019-steep-uphill~up.svg",
+      "sha256": "66cf58a9e22fab22f1712340a12b016bad870beb8de7f90ad2f7ae080ab479cf",
+      "bytes": 468
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-020-steep-downhill~down.svg",
+      "sha256": "79041fac2b65723b2f999e80e5f3f7d91fc3b3ce59798477b48e0f9a4ab2c041",
+      "bytes": 509
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-021-blind-crest.svg",
+      "sha256": "9406b4f4d82d9352f1291aa7e14768bb3a9c24f6ca9ca529ea430420075346bf",
+      "bytes": 541
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-022-road-dip.svg",
+      "sha256": "bedc999209fff9e637ba1df45174fb14639bf990f8184745c468aef411e3239c",
+      "bytes": 191
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-023-railway-crossing.svg",
+      "sha256": "623bc1e5b9a2b72ed3d0148e783f53429fd1879b6708fef56b2606711a5fb46d",
+      "bytes": 620
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-024-missing-shoulder~missing.svg",
+      "sha256": "6b1423783f0012133467279c74da62e4de397aca210c9b21a8cf94f36b3574d0",
+      "bytes": 820
+    },
+    {
+      "path": "pictograms/roados_hazard/light/geo-025-road-edge-drop.svg",
+      "sha256": "0926944fe61e520fce4b8ba6554e0722c06f1efc0ec6a74ea40245a7cdcfc611",
+      "bytes": 390
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-001-pedestrian.svg",
+      "sha256": "6e6aa3f9b75e2cc48fe413c224d5e956678dde11ddd935cb3809b59d93110bff",
+      "bytes": 306
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-002-child-pedestrian.svg",
+      "sha256": "d90ea001024ba8735e99a6c7a09ee9d2419609aa3fce0440f166e672d3c7612d",
+      "bytes": 402
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-003-cyclist.svg",
+      "sha256": "71df21b6bc2c65fb098d0f665e3055baad577cbe9f73a49e3f849a9d91135b59",
+      "bytes": 686
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-004-motorcycle.svg",
+      "sha256": "735231c263eb1b2942e82dbb3ccba5aa8b7cdfc9af51b2a452a675c9b4d84643",
+      "bytes": 809
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-005-wrong-way-motorcycle~motorcycle.svg",
+      "sha256": "d938c84db97c5e025076b9fa0351251693abd8b5e196de25bd038f0018f441db",
+      "bytes": 680
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-006-wrong-way-car~car.svg",
+      "sha256": "f3cf96b88a77b6e4ca23bcd5cefc6312bd4cd5f9070bcba1366c7c83280f7d3b",
+      "bytes": 710
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-007-stopped-car~bus.svg",
+      "sha256": "4553fb6c4b69559a3bb0fca5950b86d4deea68fe6295670da211f785729ada35",
+      "bytes": 907
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-007-stopped-car~car.svg",
+      "sha256": "ea0af93fc5b72140eb86695b2d41ebb6b224c7d670a0da5342ecc518b133a03d",
+      "bytes": 608
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-007-stopped-car~truck.svg",
+      "sha256": "0e07f1bf14276efe6f99ef0f2db76b1cc759aaf555140a4189221338dae86d81",
+      "bytes": 678
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-008-stopped-bus~bus.svg",
+      "sha256": "4553fb6c4b69559a3bb0fca5950b86d4deea68fe6295670da211f785729ada35",
+      "bytes": 907
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-009-stopped-truck~truck.svg",
+      "sha256": "0e07f1bf14276efe6f99ef0f2db76b1cc759aaf555140a4189221338dae86d81",
+      "bytes": 678
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-010-slow-moving-vehicle.svg",
+      "sha256": "7a3e0ea4cb94d41fe80f872d45eb31de38d0aee52b594551780ee9750bf9990e",
+      "bytes": 771
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-011-tractor.svg",
+      "sha256": "2d9035b6ac01f856dc815e85c3b9553d707d14df1df2260ba077180de84203a7",
+      "bytes": 585
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-012-animal.svg",
+      "sha256": "e28253241a26bf7e9184496e9e15b3365e16ffba23a19b7ba5bb3e38e6f8f975",
+      "bytes": 356
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-013-cow~cow.svg",
+      "sha256": "8599156e98dc349f27bafffbaf89e08a18ae039b894101160ca297c8ed16841b",
+      "bytes": 498
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-014-buffalo~buffalo.svg",
+      "sha256": "5dc97c3b77dc68069d3c6aab5993b4c79f1a1f800f7d26f6e878cbc5c2691888",
+      "bytes": 498
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-015-dog.svg",
+      "sha256": "ee633dbd2295ee3422c6a2ffd878e99a95cba4c4708a06650f225f5b2aec8c27",
+      "bytes": 407
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-016-goat.svg",
+      "sha256": "ed8a30d67a4a88dc6bb7d51a84a11425aca89cec5be42d073e3009624656190b",
+      "bytes": 589
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-017-animal-herd.svg",
+      "sha256": "4ca274a63c6582789c3c03b99219dd61a6ab256d76683b8d625895bab32ff7ac",
+      "bytes": 1457
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-018-sudden-braking-vehicle~car.svg",
+      "sha256": "6af5358e29d69e0ef9b12b1a4aae21fa356d5d4ef5f148ebe94f0c9fe65d9953",
+      "bytes": 585
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-019-opening-vehicle-door.svg",
+      "sha256": "048a95fd191e8b755a1385e0e70bcebdd4e1a4d6507037bad05620f374448b74",
+      "bytes": 708
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-020-reversing-vehicle.svg",
+      "sha256": "c968f151b0ff88eda50ffff87f57f17a33b743f422e03f5b3e796453daeaf522",
+      "bytes": 797
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-021-vehicle-breakdown.svg",
+      "sha256": "65b2050fc4e06a2aaf580a145d2618a2032bbec6c8186ed49836afbcb7cb2405",
+      "bytes": 865
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-022-accident-scene.svg",
+      "sha256": "68596e6767cb287676fd6e2c934f38367c3d66a1c2e0ff74a5a4f03b71ac4702",
+      "bytes": 610
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-023-emergency-vehicle.svg",
+      "sha256": "1d60a55c034083d9939cad4a32d328c80669de8f5cbaafc7cd1f305ea7ec3f75",
+      "bytes": 643
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-024-bus-stopping-unexpectedly~bus.svg",
+      "sha256": "9608f1ccb72eeacca64a2cc5854f8a3c900d013ba0b020303b498bc07b9fe5a2",
+      "bytes": 603
+    },
+    {
+      "path": "pictograms/roados_hazard/light/mov-025-traffic-queue.svg",
+      "sha256": "28711586b75045a5242154542eea0ff35590dc1ce071be7caa01996f65abf348",
+      "bytes": 1310
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-001-small-pothole~deep.svg",
+      "sha256": "e0076a3b174652d8814490fbecaed91283445a0bb04236eedf29b6be10e09f2d",
+      "bytes": 659
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-001-small-pothole~large.svg",
+      "sha256": "df4565330c107ade01058fd61bd2b34308f3ebdd55cd63dc96e0100ee50db5b8",
+      "bytes": 602
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-001-small-pothole~medium.svg",
+      "sha256": "27f9d7f139abdbbac61c6a680c356a1b4e44b6240241845059726e97e63dfb21",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-001-small-pothole~small.svg",
+      "sha256": "e2c90ff9003ccb1172dc551dfa4a5688064c1b285bd4deb86b61255b2564c371",
+      "bytes": 593
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-001-small-pothole~water_filled.svg",
+      "sha256": "14fc8f36872e47f61a3dd93ecc265e7d8dc93ed9f4671396106cab5f21e328c8",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-002-medium-pothole~deep.svg",
+      "sha256": "e0076a3b174652d8814490fbecaed91283445a0bb04236eedf29b6be10e09f2d",
+      "bytes": 659
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-002-medium-pothole~large.svg",
+      "sha256": "df4565330c107ade01058fd61bd2b34308f3ebdd55cd63dc96e0100ee50db5b8",
+      "bytes": 602
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-002-medium-pothole~medium.svg",
+      "sha256": "27f9d7f139abdbbac61c6a680c356a1b4e44b6240241845059726e97e63dfb21",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-002-medium-pothole~small.svg",
+      "sha256": "e2c90ff9003ccb1172dc551dfa4a5688064c1b285bd4deb86b61255b2564c371",
+      "bytes": 593
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-002-medium-pothole~water_filled.svg",
+      "sha256": "14fc8f36872e47f61a3dd93ecc265e7d8dc93ed9f4671396106cab5f21e328c8",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-003-large-pothole~deep.svg",
+      "sha256": "e0076a3b174652d8814490fbecaed91283445a0bb04236eedf29b6be10e09f2d",
+      "bytes": 659
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-003-large-pothole~large.svg",
+      "sha256": "df4565330c107ade01058fd61bd2b34308f3ebdd55cd63dc96e0100ee50db5b8",
+      "bytes": 602
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-003-large-pothole~medium.svg",
+      "sha256": "27f9d7f139abdbbac61c6a680c356a1b4e44b6240241845059726e97e63dfb21",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-003-large-pothole~small.svg",
+      "sha256": "e2c90ff9003ccb1172dc551dfa4a5688064c1b285bd4deb86b61255b2564c371",
+      "bytes": 593
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-003-large-pothole~water_filled.svg",
+      "sha256": "14fc8f36872e47f61a3dd93ecc265e7d8dc93ed9f4671396106cab5f21e328c8",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-004-deep-pothole~deep.svg",
+      "sha256": "e0076a3b174652d8814490fbecaed91283445a0bb04236eedf29b6be10e09f2d",
+      "bytes": 659
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-004-deep-pothole~large.svg",
+      "sha256": "df4565330c107ade01058fd61bd2b34308f3ebdd55cd63dc96e0100ee50db5b8",
+      "bytes": 602
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-004-deep-pothole~medium.svg",
+      "sha256": "27f9d7f139abdbbac61c6a680c356a1b4e44b6240241845059726e97e63dfb21",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-004-deep-pothole~small.svg",
+      "sha256": "e2c90ff9003ccb1172dc551dfa4a5688064c1b285bd4deb86b61255b2564c371",
+      "bytes": 593
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-004-deep-pothole~water_filled.svg",
+      "sha256": "14fc8f36872e47f61a3dd93ecc265e7d8dc93ed9f4671396106cab5f21e328c8",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-005-water-filled-pothole~deep.svg",
+      "sha256": "e0076a3b174652d8814490fbecaed91283445a0bb04236eedf29b6be10e09f2d",
+      "bytes": 659
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-005-water-filled-pothole~large.svg",
+      "sha256": "df4565330c107ade01058fd61bd2b34308f3ebdd55cd63dc96e0100ee50db5b8",
+      "bytes": 602
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-005-water-filled-pothole~medium.svg",
+      "sha256": "27f9d7f139abdbbac61c6a680c356a1b4e44b6240241845059726e97e63dfb21",
+      "bytes": 586
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-005-water-filled-pothole~small.svg",
+      "sha256": "e2c90ff9003ccb1172dc551dfa4a5688064c1b285bd4deb86b61255b2564c371",
+      "bytes": 593
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-005-water-filled-pothole~water_filled.svg",
+      "sha256": "14fc8f36872e47f61a3dd93ecc265e7d8dc93ed9f4671396106cab5f21e328c8",
+      "bytes": 612
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-006-multiple-potholes~multiple.svg",
+      "sha256": "9a0180bde53e40c7c5ac529b949932a53d3591227606df150350cda2e3dc1d08",
+      "bytes": 1614
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-007-long-pothole~long.svg",
+      "sha256": "bba257c2ef3e79cabbd6a0dbf0503c464c179590a321927eef19cbb49ad487d9",
+      "bytes": 597
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-008-edge-pothole~edge.svg",
+      "sha256": "c6a991d4d35e2f63ce5ea7fea2ed450c17c16b6e9108f03401c099f5a714b3fc",
+      "bytes": 766
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-009-road-cracks.svg",
+      "sha256": "3cd0cf3ae6be5c6adb1d82698244428a688044a84954fd220b42745fb96f675b",
+      "bytes": 295
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-010-broken-asphalt.svg",
+      "sha256": "0a9b022c21f6059c303837878e5799ee3a5e263bd11cd7f6494b4622767a3c3c",
+      "bytes": 337
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-011-uneven-resurfacing.svg",
+      "sha256": "6b410b1a6f499a3372ba20a1630951adb7fbb64e4459958f51e9387ae43c25cf",
+      "bytes": 445
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-012-sunken-manhole~sunken.svg",
+      "sha256": "56ed95df4feefaf6f53ccc6e3cc37f56649809eb499f924404683547c6142744",
+      "bytes": 626
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-013-open-manhole~open.svg",
+      "sha256": "9e9f690587977f1263d6ac5ded4dbd8f7909d870c33cf305b8f4b27022b0459b",
+      "bytes": 419
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-014-open-drain.svg",
+      "sha256": "2f596d17b303def87dcb6b6283c83a82dea92fead3fff3094f7b34b825154854",
+      "bytes": 535
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-015-broken-drain-cover.svg",
+      "sha256": "850522d069a5ca31bd4aa015f5ef783e5ef908d81d6c8de435d508faa819589a",
+      "bytes": 968
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-016-road-depression.svg",
+      "sha256": "a499f48a2d01c8298f0bb7dd442ab128ea064845bb41229508a2508a05fab65b",
+      "bytes": 366
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-017-road-rutting.svg",
+      "sha256": "df2c49a8ea3ba855bef0093c763c70ba5e1e7c069eb0f2ff5d49a152f3cf081d",
+      "bytes": 423
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-018-road-erosion.svg",
+      "sha256": "edffbab83db06d284620ad5861a3f33619d16c1bb798ae1936702ebb9ced7fdd",
+      "bytes": 451
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-019-broken-concrete.svg",
+      "sha256": "8bc80c16e8aa887b2a34b9fa6ca67b80302f44726846003778a788d46afb626c",
+      "bytes": 449
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-020-damaged-bridge-joint.svg",
+      "sha256": "9df72484e1c13a267a870ff2aec8c320770782327b7df554587a14920f18ec50",
+      "bytes": 495
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-021-road-subsidence.svg",
+      "sha256": "1d40e31bd5bef2250867644d85886ec533a0ddbdeace5c8dcab453c4454ff160",
+      "bytes": 452
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rdm-022-shoulder-drop-off.svg",
+      "sha256": "0926944fe61e520fce4b8ba6554e0722c06f1efc0ec6a74ea40245a7cdcfc611",
+      "bytes": 390
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-001-stop.svg",
+      "sha256": "742bc56c4264edeac0722d99825d073a94b94a613deaa03b07e8dfdc7f9eda3a",
+      "bytes": 377
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-002-give-way.svg",
+      "sha256": "79a9bc2b8a33cae0785e38ed84197e7e4a8146a6e2a7bcc4db766d95cdfe209a",
+      "bytes": 190
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-003-no-entry.svg",
+      "sha256": "e6e990bf046b005647275cc440c3f82566b82947f78f2cc3437d86480a0b9695",
+      "bytes": 203
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-004-one-way.svg",
+      "sha256": "9cb9ced8e62d296f483b2ecb79dc0ac41714f26fa09c2efb9f2660bd41a20e6b",
+      "bytes": 250
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-005-no-parking.svg",
+      "sha256": "ca5747d897f69ff4be5b032adc03081fea4e79fff54ad55c15435f0ea308c1fa",
+      "bytes": 274
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-006-no-stopping.svg",
+      "sha256": "66021f999f8bf3ba06a045725b63a7add8e2c07d938efc8f18ae0259126ca537",
+      "bytes": 300
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-007-no-overtaking.svg",
+      "sha256": "ff293ae399944cf7c8472a70086260a57acad295dbb0078a86d2f7d60df4be9b",
+      "bytes": 905
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-008-no-u-turn.svg",
+      "sha256": "32af015945451e767c087bd4c6f24e6588401a1efbefd5a64a370989ff395e10",
+      "bytes": 268
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-009-speed-limit.svg",
+      "sha256": "59eefb1ee8cfe2db30e4a6c71d3667030a3aa555cac09fa327673c22ff02e692",
+      "bytes": 356
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-010-height-restriction.svg",
+      "sha256": "3382804614c65a1fa52ce66d33b516057639b8bd1611052923068da04305663b",
+      "bytes": 338
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-011-width-restriction.svg",
+      "sha256": "1dc039c352e9b38f177160fed60a9af8cf912ebfdb57d2a24abd7947cfda720a",
+      "bytes": 336
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-012-weight-restriction.svg",
+      "sha256": "fbbb2cb42e50ce3706cdecda3b7a907601812671323a70a36ab0285ab7063bf6",
+      "bytes": 486
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-013-sharp-left-bend~left.svg",
+      "sha256": "723edd3c5d89923b40a3599a375296e22a753298e506f327ac8cdddaaf656b90",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-014-sharp-right-bend~right.svg",
+      "sha256": "69ac37384061e5256a33f88e3ceceed94badb7000a12c9bc93e3a97e0352b33a",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-015-hairpin-bend~left.svg",
+      "sha256": "001a3864333373495cb8566f45c00e283d19ae6836d42fe808b0669bcb5a2cb1",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-015-hairpin-bend~right.svg",
+      "sha256": "512a0bdfd05b9b93a46f8ee35375d044f7efa0f9537e3d3376a51013ce23f187",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-016-dangerous-dip.svg",
+      "sha256": "bedc999209fff9e637ba1df45174fb14639bf990f8184745c468aef411e3239c",
+      "bytes": 191
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-017-speed-breaker~sign.svg",
+      "sha256": "18377472d7a350839d48eebfc87aaaac457b1a3703194e70bda4d4f01dddc578",
+      "bytes": 268
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-018-rough-road.svg",
+      "sha256": "4151bd671560bef9cd708785e9ff9796957d02f8625c8653c8e3de15badab5b4",
+      "bytes": 311
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-019-loose-gravel.svg",
+      "sha256": "50c51f2d389f8e7f7692ad42634fefd1fbbbc8bdcfd2801c0e46f135a052165b",
+      "bytes": 877
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-020-falling-rocks.svg",
+      "sha256": "8cd8ba2c26e2fcdb86b768061c765146ff88ba52887fdfa9539f5e18bc1a7a2b",
+      "bytes": 413
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-021-narrow-bridge.svg",
+      "sha256": "c861c597969c671387f92812183e2cefcb58f3c84c4533a2d31ed7200983c7b0",
+      "bytes": 371
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-022-narrow-road.svg",
+      "sha256": "55760f4f9d17bbc35387c465601624f6b1766df283284c10ecb1cc8e0d7fe1d7",
+      "bytes": 271
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-023-road-narrows~both.svg",
+      "sha256": "c05c736106d5046c51de75304dd8305ce8e551b7e67ff25a8038c028f8f40b51",
+      "bytes": 228
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-023-road-narrows~left.svg",
+      "sha256": "8bc5ea20122332eb38c62997623ce0a787e8f9b288bbfa37836098aef534fd03",
+      "bytes": 219
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-023-road-narrows~right.svg",
+      "sha256": "7877bd911744e2f3f640830eb7491a1b16ea2fc7dbb3d8bc730a9ba00d76542f",
+      "bytes": 220
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-024-slippery-road.svg",
+      "sha256": "66096967b19843b1a01be93dab46d0c54564bcceda8cf338fc3a738f66392ade",
+      "bytes": 662
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-025-crossroads.svg",
+      "sha256": "cfe4a4c2efcc8602484a5fca2a030ce240c207377081d0078193e0bb0b984e6e",
+      "bytes": 210
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-026-t-junction.svg",
+      "sha256": "acac7ac945b4f6388f0693215edbae22d6ff1ce0c826c3737027317e8020059b",
+      "bytes": 211
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-027-y-junction.svg",
+      "sha256": "73fe7d550ad8aab900714f915501706ce7596507be3af40aac325ee5711cc3af",
+      "bytes": 225
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-028-roundabout.svg",
+      "sha256": "fb09195b21c0ed08a249ee3a98d2f31acb9558bb3329484b51750287516a7a6b",
+      "bytes": 692
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-029-pedestrian-crossing.svg",
+      "sha256": "6359fc25506c4d13d00eedf9e366d0ee8e8e0d93d59cd639caab05acb06a4ffa",
+      "bytes": 704
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-030-school-ahead.svg",
+      "sha256": "41ca746e9f340987fdef79bbb3833759eb63f8c5804643a96425c249f0618d16",
+      "bytes": 662
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-031-cattle-crossing.svg",
+      "sha256": "8599156e98dc349f27bafffbaf89e08a18ae039b894101160ca297c8ed16841b",
+      "bytes": 498
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-032-railway-crossing.svg",
+      "sha256": "623bc1e5b9a2b72ed3d0148e783f53429fd1879b6708fef56b2606711a5fb46d",
+      "bytes": 620
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-033-hospital.svg",
+      "sha256": "4ce9b0c83ac70ee7134dcd76e1f04ae1a8f36a0818f245156a985c5a0534c280",
+      "bytes": 223
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-034-parking.svg",
+      "sha256": "f20e921f542a042b975af2730a27687f2386c64622524da48cf5516efaa51d45",
+      "bytes": 274
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-035-fuel.svg",
+      "sha256": "04c0e3aa6fa51359f1b3fd28c4f2329a9ce3a233cdf1febb5ed2d1943c5a3068",
+      "bytes": 430
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-036-bus-stop.svg",
+      "sha256": "22b7595790669bb801801107cb010a6b8dab32516cd3582bde296d4dd9b9db3c",
+      "bytes": 722
+    },
+    {
+      "path": "pictograms/roados_hazard/light/rsg-037-destination-and-direction-signs.svg",
+      "sha256": "73470c2157cbd44faccf21249964a5675942ff464a3ab0f8db8b336cf50e95ea",
+      "bytes": 896
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-001-normal-speed-breaker~high.svg",
+      "sha256": "31a03076fedc0afc1b1c8664dd985a0304f3963f86b058d8a8ce13662e98a002",
+      "bytes": 588
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-001-normal-speed-breaker~marked.svg",
+      "sha256": "88917407e22d7f28ebf9ee6324ae233a85d7e9b8ee526e28618654151810eded",
+      "bytes": 595
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-001-normal-speed-breaker~medium.svg",
+      "sha256": "9debecfc757b777fb69b5ebe675092fa4361e5fec4d09617b375a310f4582f66",
+      "bytes": 579
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-001-normal-speed-breaker~small.svg",
+      "sha256": "3976aa26c5243af32d5f757836258a6f5d06e3d8daf333fa196bbcf450cd2b88",
+      "bytes": 532
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-001-normal-speed-breaker~unmarked.svg",
+      "sha256": "b20a0e5ab7979df5d4095dda606ba57db5f5ed1fadee9ae6134a878586221542",
+      "bytes": 484
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-002-small-speed-breaker~small.svg",
+      "sha256": "3976aa26c5243af32d5f757836258a6f5d06e3d8daf333fa196bbcf450cd2b88",
+      "bytes": 532
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-003-medium-speed-breaker~medium.svg",
+      "sha256": "9debecfc757b777fb69b5ebe675092fa4361e5fec4d09617b375a310f4582f66",
+      "bytes": 579
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-004-high-speed-breaker~high.svg",
+      "sha256": "31a03076fedc0afc1b1c8664dd985a0304f3963f86b058d8a8ce13662e98a002",
+      "bytes": 588
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-005-unmarked-speed-breaker~unmarked.svg",
+      "sha256": "b20a0e5ab7979df5d4095dda606ba57db5f5ed1fadee9ae6134a878586221542",
+      "bytes": 484
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-006-oversized-hump~oversized.svg",
+      "sha256": "cf2a918c980b4ba66d0609a5ffcfbd58341dbd0cdd52ca80a06c490ea3cfe1a8",
+      "bytes": 590
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-007-sharp-edged-hump~sharp.svg",
+      "sha256": "ed4c9c01b3320129a9cccf3f7b941ff4b92932f6e3bb076af2a0122407dfbc24",
+      "bytes": 426
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-008-broken-speed-breaker~broken.svg",
+      "sha256": "6a799e1affb9268a7f52bff8c824ac20c0cfdaea442dd29729984a8d9a429ad9",
+      "bytes": 581
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-009-multiple-speed-breakers~multiple.svg",
+      "sha256": "9d72a18d56681b36d0cc25ee5cffc48ad4679f1afb6cc9227d49d7cd715e05bc",
+      "bytes": 1189
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-010-rumble-strips.svg",
+      "sha256": "751a9f66e97114c6d6527478d9dba9c69d837168da80306152bcdbbcd7227f6c",
+      "bytes": 718
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-011-raised-pedestrian-crossing.svg",
+      "sha256": "11965ad35399442f4978fb749c3682bf6dd43e005ba45132147790666f8e2889",
+      "bytes": 578
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-012-speed-cushion.svg",
+      "sha256": "8648a716ce123c14ce7d03d85f27251f5ac58e32ee9d0319f749336615c2601e",
+      "bytes": 539
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-013-sudden-road-elevation.svg",
+      "sha256": "40d75f77fe5744d3be2646948df2b71ddd1c3f754d80490dca825f7fd7215cb7",
+      "bytes": 294
+    },
+    {
+      "path": "pictograms/roados_hazard/light/spd-014-railway-crossing-hump.svg",
+      "sha256": "d32ba973c64570cda89e674be8a51d0f397b0bbe782dfb59d9249e6f6be5baf2",
+      "bytes": 562
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-001-traffic-cone~fallen.svg",
+      "sha256": "a97df7bcfad3101a5569ba60a25036a88b356bb1f93093673dee28853ec0c0cb",
+      "bytes": 438
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-001-traffic-cone~multiple.svg",
+      "sha256": "21f00031433f240447a6e9049412f06738529267fc00281a25b8812538fd700a",
+      "bytes": 775
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-001-traffic-cone~single.svg",
+      "sha256": "4d7136c37eecada51517731e72db8929cce11a26d4ec0f99186a18c73f5a3428",
+      "bytes": 271
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-002-multiple-traffic-cones~multiple.svg",
+      "sha256": "21f00031433f240447a6e9049412f06738529267fc00281a25b8812538fd700a",
+      "bytes": 775
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-003-fallen-traffic-cone~fallen.svg",
+      "sha256": "a97df7bcfad3101a5569ba60a25036a88b356bb1f93093673dee28853ec0c0cb",
+      "bytes": 438
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-004-plastic-barricade~metal.svg",
+      "sha256": "ae75896b7d63f108e1825c18313e04920e972a571d8e4dc97bd92a6949b3297f",
+      "bytes": 1241
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-004-plastic-barricade~plastic.svg",
+      "sha256": "9fa5d589d3e1da68eafd30731645c0b5876c912060a4628d1bd31d4a2d209dca",
+      "bytes": 750
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-004-plastic-barricade~water_filled.svg",
+      "sha256": "6e29817aa7e696c5f86302e486bbe736aeb2ec0eba96041e80bb096df5e3e1db",
+      "bytes": 427
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-005-water-filled-barricade~water_filled.svg",
+      "sha256": "6e29817aa7e696c5f86302e486bbe736aeb2ec0eba96041e80bb096df5e3e1db",
+      "bytes": 427
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-006-metal-barricade~metal.svg",
+      "sha256": "ae75896b7d63f108e1825c18313e04920e972a571d8e4dc97bd92a6949b3297f",
+      "bytes": 1241
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-007-concrete-barrier.svg",
+      "sha256": "915d32d25810cdef1775d6af5c3f8000be58bf7727e0bd5da1435c6498d0988d",
+      "bytes": 378
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-008-yellow-construction-board.svg",
+      "sha256": "9ad4dfe642e9a86e13dda981aaa7bd26ac83645e0a0f188bc6b33378c4601ffa",
+      "bytes": 650
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-009-temporary-warning-board.svg",
+      "sha256": "df5256ddaf6e4044a7f63f57ffa60900aeb7ac09b367e41378d851c0efd440c0",
+      "bytes": 474
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-010-fallen-signboard.svg",
+      "sha256": "80caefa917972fcaa3a3f7ce83570c2e5399f57aa2c54770a54139f0d1fec8e2",
+      "bytes": 574
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-011-construction-fencing.svg",
+      "sha256": "81334b2681398ce98f683d3ba43f106548463a9766ce6c5194b4fcb4e0471c61",
+      "bytes": 1189
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-012-excavator.svg",
+      "sha256": "79ffdf087bb61579d0e48c1307bc3318586d292d48552f8bf00fbbc55307f9b1",
+      "bytes": 611
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-013-road-roller.svg",
+      "sha256": "07ed4a37d92dd96facd3db268d0ada710d1ea19c56a78a660119230c646b50b3",
+      "bytes": 610
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-014-construction-material.svg",
+      "sha256": "ac21cd84f83c792d526c8389085f3aa7e629abcd97b0715ab1ad22384b6d12a3",
+      "bytes": 648
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-015-open-excavation.svg",
+      "sha256": "d5d28f87e6937dc83f38b4fb3981db4358694df2dabbfb3d21b26cb4593c119f",
+      "bytes": 545
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-016-temporary-road-ramp.svg",
+      "sha256": "28bbfc63ddcc1a72b752ecf0802edcb153eae3b0abf6845144606502fb31785f",
+      "bytes": 440
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-017-cable-across-road.svg",
+      "sha256": "8b0231057e14bad5f2bc551ae5f11e1285125c775ba619dc4245f4bfad16f6a8",
+      "bytes": 486
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-018-temporary-diversion.svg",
+      "sha256": "52c2ecb353ce159e33d153231994db78524eb9d3a7b7577500287e75581b8cd3",
+      "bytes": 596
+    },
+    {
+      "path": "pictograms/roados_hazard/light/tmp-019-temporary-lane-closure.svg",
+      "sha256": "05286707e339a65fdb1013e24fc5059f9f478d905a05989ed939379940c49174",
+      "bytes": 1016
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-001-missing-streetlight~missing.svg",
+      "sha256": "203ac49aabd7a02b64504577440a1c1358c7b29283b0b064ece7f843c1d23050",
+      "bytes": 567
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-002-failed-streetlight~failed.svg",
+      "sha256": "f72725370c47f11d4628ad38c4087610b8fd2091ef61cd35e3e30fdf744e4208",
+      "bytes": 497
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-003-hidden-traffic-sign.svg",
+      "sha256": "6f266bce90858d8920f617303151fd067b4fecb51e7882c119aaecd41410195f",
+      "bytes": 445
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-004-missing-warning-sign.svg",
+      "sha256": "3b7e1b0777901e141b62cbfa1bf6daadde4d320d6791e6d7cd0bfe84a2d2b734",
+      "bytes": 534
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-005-faded-road-markings~faded.svg",
+      "sha256": "781feb98aaae028cfd63ec13047dfd9ad76c89733f2a2bb64ce0c41225547c1e",
+      "bytes": 557
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-006-missing-lane-markings~missing.svg",
+      "sha256": "8de5890568dd2267a78390996bdba86dd7a940780c977ec5977d4820d946af1f",
+      "bytes": 477
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-007-missing-reflectors.svg",
+      "sha256": "23f13d6e92df480dd6a34ed3bc956939a6e38bc3f89ea34c5290c2dfea5a30aa",
+      "bytes": 704
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-008-damaged-signboard.svg",
+      "sha256": "eccf30fc702ca4417641f15d3dda754d7b2755c16ad8711b3ed670a3762f8172",
+      "bytes": 590
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-009-vegetation-obstruction.svg",
+      "sha256": "6f3edb1ad1b876df1a4f443af90e7bcd2b8b8a9ce30b3babc946f768ceea3f29",
+      "bytes": 464
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-010-blind-junction.svg",
+      "sha256": "bc2bba8927b920744dd44baa4704907bb3bf1b4316d06fe80a9d0c6a26ef4c15",
+      "bytes": 660
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-011-restricted-sight-distance.svg",
+      "sha256": "560b026cb6520951bc1f6279ae9c4859271c63cff2c48c0230014b3e3c5ac1b5",
+      "bytes": 441
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-012-low-overhead-clearance~overhead.svg",
+      "sha256": "30d96038b6d7b6526fd9968c05eec7c7f16d1e9c907a71cd8b6254edd4db1e4d",
+      "bytes": 617
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-013-narrow-shoulder~narrow.svg",
+      "sha256": "1edcfc335608c388bff9dd379e72702133a4b14478ee26ce3ed1e73aad33c9fc",
+      "bytes": 585
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-014-roadside-encroachment.svg",
+      "sha256": "48f56c69743c9ae7a77a633670e653f3f1a5a13bdb3723ee08252a7204488893",
+      "bytes": 699
+    },
+    {
+      "path": "pictograms/roados_hazard/light/vis-015-unprotected-embankment.svg",
+      "sha256": "6dd082619c1fdf56bfc708e2884f772ab9a0be4fdc11871754c7a16f5e0f9d4e",
+      "bytes": 657
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-001-painted-divider.svg",
+      "sha256": "dbb80eccc12a04cc7df61f1ce8b2d5daebff72de70c5b6f259fc60ebc9427dc4",
+      "bytes": 1166
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-002-raised-median.svg",
+      "sha256": "dd83f9b68f9bb41d76eb66962b60fde782aed83e81703b5474bbb7511e3b1bfb",
+      "bytes": 476
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-003-concrete-divider.svg",
+      "sha256": "c18d3832398057aa3b680ba58a0b558fc465594a49ae7c246ae3d7f854c2f981",
+      "bytes": 378
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-004-metal-crash-barrier.svg",
+      "sha256": "c4ebe4fd482803ed3c6be7039b911c3952d66165ac346b6e4ca5072ebcc15810",
+      "bytes": 574
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-005-pedestrian-guardrail.svg",
+      "sha256": "bbda6e23a398aa83b139db91cb5010745e1a44f1a1da557f8af333583e5008dd",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-006-road-delineator.svg",
+      "sha256": "46db9f30858bc24d5e0a12826782cbb34d29bfa4a9066d4b8ffc38ee6f5f8533",
+      "bytes": 421
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-007-hazard-marker.svg",
+      "sha256": "ce791e769d79344d4ce672ceffc7c5b3e4264479784a2a36eb4ad0f2a2210f0f",
+      "bytes": 771
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-008-chevron-marker.svg",
+      "sha256": "ccd5ab7e5195bc4552884c6a871aef94a565d8da546408488a3bac59330246d1",
+      "bytes": 412
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-009-crash-cushion.svg",
+      "sha256": "0afa94e438c3f08e6f5819f9c290e203fd70525d36dee2e38434ce7c0104d058",
+      "bytes": 603
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-010-bollard.svg",
+      "sha256": "1c31cfe6b0dc59b6908f494aea3a35748fb9f86050f51e505ff84869a7f9728d",
+      "bytes": 375
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-011-traffic-island.svg",
+      "sha256": "20abacb2b2043ee611d63c1952a266bd8114d7cb8e72aeca7c35560d8c699fd4",
+      "bytes": 365
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-012-streetlight~failed.svg",
+      "sha256": "e32f88ca9e52f4110b6c1a2e256b201b92066f0c1fb0b0bcf1775b00a48293ff",
+      "bytes": 497
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-012-streetlight~missing.svg",
+      "sha256": "f588e82c3eaeee387c8937287a9caad9524d7096a1545f4d644e0e89e499e0bb",
+      "bytes": 567
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-012-streetlight~on.svg",
+      "sha256": "84a25c69e187c4d1058ec39ba818d5388174547ecc5bc6948daf09d9e61774a3",
+      "bytes": 430
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-013-signpost.svg",
+      "sha256": "65d377d65c7bd413211024103782c8ff695e21e2fc9ecaf8469cefeacfa40677",
+      "bytes": 439
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-014-overhead-gantry.svg",
+      "sha256": "62bb8a7db624bac219bdebaf4f16049e286848f07b77bdd098f06a0ab0754341",
+      "bytes": 725
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-015-boundary-stone.svg",
+      "sha256": "836d1c3e576fa473f9a6a96ca4ecf11432e637488d207bb9a7abb8130436b302",
+      "bytes": 444
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-016-kilometre-stone.svg",
+      "sha256": "aac46786623171287ceea98297c20ae23434df1af8f65cc18bb399f3be9698a4",
+      "bytes": 776
+    },
+    {
+      "path": "pictograms/roados_infrastructure/dark/inf-017-road-railing.svg",
+      "sha256": "095a8595854594beeb1babb6fa6901def68e3f78f8311bbae8b6188a7ae2a6e6",
+      "bytes": 353
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-001-painted-divider.svg",
+      "sha256": "800b63e5b3e69fccc19f71cd86b5a3a51293be99f3d5f53c7c133d9a6990afbe",
+      "bytes": 1166
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-002-raised-median.svg",
+      "sha256": "784c432a3c410f26250b74b7b9750d24d5ed9be3d3023adf63910f752c5c20a8",
+      "bytes": 476
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-003-concrete-divider.svg",
+      "sha256": "1173650c19376e9d7abd6d2375f66d0c3f2a4b013366d49e3ac795a22365ef1e",
+      "bytes": 378
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-004-metal-crash-barrier.svg",
+      "sha256": "eb3e9cac1f9cab7940506700e18130e77fa03a43f4cc50de7f383ec18e1e1198",
+      "bytes": 574
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-005-pedestrian-guardrail.svg",
+      "sha256": "8a94096e0f673494b756ceea0ab50c3fc28f41b39fb3071a1ad9016ec07cf34e",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-006-road-delineator.svg",
+      "sha256": "151ae6ce9e79cd6023bb5ecc463ca9a45a846a3262d08381e25e6b21deb9d335",
+      "bytes": 421
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-007-hazard-marker.svg",
+      "sha256": "8b218982cfe7653c896743cbc9f051d697820a2baa540831360056c9d0ddeafa",
+      "bytes": 771
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-008-chevron-marker.svg",
+      "sha256": "d843467e16ea23551409cc02c38d2dfc6a6fac8a949ea70ddee73e4cdbaf6038",
+      "bytes": 412
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-009-crash-cushion.svg",
+      "sha256": "193631e880e8c4fa96db88d978dbe55eee005fddc45aa3e72f5393389173a087",
+      "bytes": 603
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-010-bollard.svg",
+      "sha256": "d130dd21f5320fe397325a9b4b0b595e8010cbd2c1ef6ee5d7d1d89cbc35f26a",
+      "bytes": 375
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-011-traffic-island.svg",
+      "sha256": "4429c07e750e907485f4c958dd838af7e64d3467494b23477487af872ef16539",
+      "bytes": 365
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-012-streetlight~failed.svg",
+      "sha256": "f72725370c47f11d4628ad38c4087610b8fd2091ef61cd35e3e30fdf744e4208",
+      "bytes": 497
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-012-streetlight~missing.svg",
+      "sha256": "203ac49aabd7a02b64504577440a1c1358c7b29283b0b064ece7f843c1d23050",
+      "bytes": 567
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-012-streetlight~on.svg",
+      "sha256": "7164b234860b14f74d9709064b3c04700a07e33f9dbd520cd8cd66598600fc1f",
+      "bytes": 430
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-013-signpost.svg",
+      "sha256": "6d67535efb0a8a83c77e718abdeba46604ebc3663568bc3234f19bf63e0744cd",
+      "bytes": 439
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-014-overhead-gantry.svg",
+      "sha256": "cc812c1973fc9583cebad170e3eb8f70d8400c01cf7c63487533799c6084984e",
+      "bytes": 725
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-015-boundary-stone.svg",
+      "sha256": "45f475b49169cf2a8d1283d7d90408ae6caa022f6d17b4b7d020e5d123bd12b6",
+      "bytes": 444
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-016-kilometre-stone.svg",
+      "sha256": "3469bfe662619d39f932413055dc68f2f99261d1bb543f4a50849f7d8a977133",
+      "bytes": 776
+    },
+    {
+      "path": "pictograms/roados_infrastructure/light/inf-017-road-railing.svg",
+      "sha256": "d4a23221222b21642b7222a42cf58bc34210a63b11042a9db0e8ee72d0daa46c",
+      "bytes": 353
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-001-zebra-crossing.svg",
+      "sha256": "e8f8760b03a5ca7e37cf16edada8b10eb3c8fb9e677e0193c9b0cac52c5cf5fd",
+      "bytes": 500
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-002-stop-line.svg",
+      "sha256": "1bc55fe55c175033f58e9982278f14e7aec83041eefc20c4a2d03164eef62cb7",
+      "bytes": 596
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-003-give-way-marking.svg",
+      "sha256": "cddffda834529da5d496e3136f3a13e13b7aebf8b314e81a312f676323a3c943",
+      "bytes": 880
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-004-broken-lane-line~broken.svg",
+      "sha256": "de1fe2fa8ffa21aeb94ac4737c941b6c4ffa2fa11c9f34ad2d34a28e5549413b",
+      "bytes": 383
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-005-solid-lane-line~solid.svg",
+      "sha256": "277153f1700cdb58671d930a4362b9314c6344c987a2d82e3924414fe9042699",
+      "bytes": 267
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-006-double-solid-line~double.svg",
+      "sha256": "0b4fff807f4a51cef470f5c6080870d473560cef210afc97f6a91bfc7673e677",
+      "bytes": 324
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-007-centre-line~centre.svg",
+      "sha256": "4778f0f328715761624825bb24f3320266bdc1c4ed66f880f172470b6814ed29",
+      "bytes": 565
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-008-edge-line.svg",
+      "sha256": "071d9f6c27efe1e0a600855ef2b67c5b8ebd91330a5157647d24a2014e45f220",
+      "bytes": 578
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-009-direction-arrows~ahead_left.svg",
+      "sha256": "dcb76746a9f9a914d339ea68caca3a12a29e7a8e71c592ea82d395ea55cf5168",
+      "bytes": 539
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-009-direction-arrows~ahead_right.svg",
+      "sha256": "7fa3dc954d1a73325164cc17835a0cab1dec4f9953c5122716dca32e63173c19",
+      "bytes": 580
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-009-direction-arrows~ahead.svg",
+      "sha256": "f06947a3224a76549384528cce040914ca5ffaf029be84b921f277decb338825",
+      "bytes": 368
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-009-direction-arrows~left.svg",
+      "sha256": "119b15eaffcb2f3a7f74e03a5968b106abaee3a02d8a46a8753ac852aff0a2d6",
+      "bytes": 495
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-009-direction-arrows~right.svg",
+      "sha256": "a7130d6e463ce21de4953106eb5d3b79c1765a5fb19d714846e4a5ea0e56687a",
+      "bytes": 536
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-010-yellow-box-junction.svg",
+      "sha256": "279fcb5da6332bf53204f4c21d86860a6ba0315d06f12e2a4b5d65868aa3b0c1",
+      "bytes": 1596
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-011-chevron-and-hatch-markings.svg",
+      "sha256": "3c684b2460721bf43b5a92ec9806f74502c53db03e8fe2bac4fbfc6d2dba0691",
+      "bytes": 374
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-012-bus-lane.svg",
+      "sha256": "544ccb8804ea65f001c39bd8f34a498772663685bb33a91c618052179facbb17",
+      "bytes": 754
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-013-cycle-lane.svg",
+      "sha256": "e1289b5e3e497298db4ef91cf183ee3019e104b73f33df5375c111099e1b65c9",
+      "bytes": 911
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-014-speed-limit-pavement-marking.svg",
+      "sha256": "3ba75439fb7a0c3a8441ec22b373f93984b6dfc4cd82221bfd5060efced76985",
+      "bytes": 429
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-015-school-marking.svg",
+      "sha256": "d3a2b47689dac47dec75f1450f5bb6b78e2f5f17c432ffbb9b12aa9706da1257",
+      "bytes": 1055
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-016-rumble-strips-marking.svg",
+      "sha256": "01e0cb975b75115a43100b40480ce697b5d6b12f580f0274a6e1c10f0b47e487",
+      "bytes": 679
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-017-raised-road-studs.svg",
+      "sha256": "0795fbcdcd43e36e7f4549c596667ad6e68fa6b15a8c4d91a133b5be60bc6338",
+      "bytes": 730
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-018-reflective-markers.svg",
+      "sha256": "44cf1382a92eede918b9c480bb867520ef2c24a02d4f52b21c49bd7b61d61ca9",
+      "bytes": 425
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-019-faded-markings~faded.svg",
+      "sha256": "5d8bc18bb97d3c3c83a9302aea8a6370e192001d11a353612007c30995aa64c9",
+      "bytes": 557
+    },
+    {
+      "path": "pictograms/roados_marking/dark/mrk-020-missing-markings~missing.svg",
+      "sha256": "610063aec857922cd66135f080edac8604432ddcd2a0a172dba036787cb70b27",
+      "bytes": 477
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-001-zebra-crossing.svg",
+      "sha256": "e8f8760b03a5ca7e37cf16edada8b10eb3c8fb9e677e0193c9b0cac52c5cf5fd",
+      "bytes": 500
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-002-stop-line.svg",
+      "sha256": "1bc55fe55c175033f58e9982278f14e7aec83041eefc20c4a2d03164eef62cb7",
+      "bytes": 596
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-003-give-way-marking.svg",
+      "sha256": "cddffda834529da5d496e3136f3a13e13b7aebf8b314e81a312f676323a3c943",
+      "bytes": 880
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-004-broken-lane-line~broken.svg",
+      "sha256": "de1fe2fa8ffa21aeb94ac4737c941b6c4ffa2fa11c9f34ad2d34a28e5549413b",
+      "bytes": 383
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-005-solid-lane-line~solid.svg",
+      "sha256": "277153f1700cdb58671d930a4362b9314c6344c987a2d82e3924414fe9042699",
+      "bytes": 267
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-006-double-solid-line~double.svg",
+      "sha256": "0b4fff807f4a51cef470f5c6080870d473560cef210afc97f6a91bfc7673e677",
+      "bytes": 324
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-007-centre-line~centre.svg",
+      "sha256": "4778f0f328715761624825bb24f3320266bdc1c4ed66f880f172470b6814ed29",
+      "bytes": 565
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-008-edge-line.svg",
+      "sha256": "071d9f6c27efe1e0a600855ef2b67c5b8ebd91330a5157647d24a2014e45f220",
+      "bytes": 578
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-009-direction-arrows~ahead_left.svg",
+      "sha256": "dcb76746a9f9a914d339ea68caca3a12a29e7a8e71c592ea82d395ea55cf5168",
+      "bytes": 539
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-009-direction-arrows~ahead_right.svg",
+      "sha256": "7fa3dc954d1a73325164cc17835a0cab1dec4f9953c5122716dca32e63173c19",
+      "bytes": 580
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-009-direction-arrows~ahead.svg",
+      "sha256": "f06947a3224a76549384528cce040914ca5ffaf029be84b921f277decb338825",
+      "bytes": 368
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-009-direction-arrows~left.svg",
+      "sha256": "119b15eaffcb2f3a7f74e03a5968b106abaee3a02d8a46a8753ac852aff0a2d6",
+      "bytes": 495
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-009-direction-arrows~right.svg",
+      "sha256": "a7130d6e463ce21de4953106eb5d3b79c1765a5fb19d714846e4a5ea0e56687a",
+      "bytes": 536
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-010-yellow-box-junction.svg",
+      "sha256": "279fcb5da6332bf53204f4c21d86860a6ba0315d06f12e2a4b5d65868aa3b0c1",
+      "bytes": 1596
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-011-chevron-and-hatch-markings.svg",
+      "sha256": "3c684b2460721bf43b5a92ec9806f74502c53db03e8fe2bac4fbfc6d2dba0691",
+      "bytes": 374
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-012-bus-lane.svg",
+      "sha256": "544ccb8804ea65f001c39bd8f34a498772663685bb33a91c618052179facbb17",
+      "bytes": 754
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-013-cycle-lane.svg",
+      "sha256": "e1289b5e3e497298db4ef91cf183ee3019e104b73f33df5375c111099e1b65c9",
+      "bytes": 911
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-014-speed-limit-pavement-marking.svg",
+      "sha256": "3ba75439fb7a0c3a8441ec22b373f93984b6dfc4cd82221bfd5060efced76985",
+      "bytes": 429
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-015-school-marking.svg",
+      "sha256": "d3a2b47689dac47dec75f1450f5bb6b78e2f5f17c432ffbb9b12aa9706da1257",
+      "bytes": 1055
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-016-rumble-strips-marking.svg",
+      "sha256": "01e0cb975b75115a43100b40480ce697b5d6b12f580f0274a6e1c10f0b47e487",
+      "bytes": 679
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-017-raised-road-studs.svg",
+      "sha256": "0795fbcdcd43e36e7f4549c596667ad6e68fa6b15a8c4d91a133b5be60bc6338",
+      "bytes": 730
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-018-reflective-markers.svg",
+      "sha256": "44cf1382a92eede918b9c480bb867520ef2c24a02d4f52b21c49bd7b61d61ca9",
+      "bytes": 425
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-019-faded-markings~faded.svg",
+      "sha256": "5d8bc18bb97d3c3c83a9302aea8a6370e192001d11a353612007c30995aa64c9",
+      "bytes": 557
+    },
+    {
+      "path": "pictograms/roados_marking/light/mrk-020-missing-markings~missing.svg",
+      "sha256": "610063aec857922cd66135f080edac8604432ddcd2a0a172dba036787cb70b27",
+      "bytes": 477
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-001-vehicle-traffic-signal~all.svg",
+      "sha256": "15b146adb558ada407954e8f00dc79af9b08eaef085440b6c4ecd2c0ec0e2f10",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-001-vehicle-traffic-signal~amber.svg",
+      "sha256": "5650953c40bc274cc9747cecc48bedd0b80aa209478837cdb7501c4a8c0732d1",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-001-vehicle-traffic-signal~dark.svg",
+      "sha256": "039eb156562f56f7dadb1d820f6809282db2eec4eb10386878dfb4b1e7177ffe",
+      "bytes": 446
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-001-vehicle-traffic-signal~green.svg",
+      "sha256": "a4cadf57b26a30a0ff0bf10112e8c69c434846811d8be1b3cc8feda072ce6e81",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-001-vehicle-traffic-signal~red.svg",
+      "sha256": "0165e0a17fba057e7ee9fd50f64aaa6e4b50d8ef2434dacefca5e1cec05e7a06",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-002-red-signal-state~red.svg",
+      "sha256": "0165e0a17fba057e7ee9fd50f64aaa6e4b50d8ef2434dacefca5e1cec05e7a06",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-003-amber-signal-state~amber.svg",
+      "sha256": "5650953c40bc274cc9747cecc48bedd0b80aa209478837cdb7501c4a8c0732d1",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-004-green-signal-state~green.svg",
+      "sha256": "a4cadf57b26a30a0ff0bf10112e8c69c434846811d8be1b3cc8feda072ce6e81",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-005-directional-arrow-signal~ahead.svg",
+      "sha256": "3c5ffb473cfaf717e82b10addd00b506e937ee8342d0b7c3777955b8aad9f7c6",
+      "bytes": 432
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-005-directional-arrow-signal~left.svg",
+      "sha256": "936216a0b12ef06e7f7e086abcf2e58c1897b0bda1d5f23ae121d0dcfdd4ab8f",
+      "bytes": 396
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-005-directional-arrow-signal~right.svg",
+      "sha256": "777b64252022d1e9601103e355330172fa0379b0a45df31d0c6b4d10c7825988",
+      "bytes": 437
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-006-pedestrian-signal~stop.svg",
+      "sha256": "135f603661d075430b90133d09c3d4413299a731bb5530007d97756d76a60e1d",
+      "bytes": 702
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-006-pedestrian-signal~walk.svg",
+      "sha256": "8dad45da325da91e17f525b545f8fe231a3f7bf7a997722aed07b8c7163d9d28",
+      "bytes": 702
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-007-flashing-signal.svg",
+      "sha256": "fa0ad6c0486bcc566d073fedb49bb1493bd86fa15ce8611fd367823aaa058c3f",
+      "bytes": 402
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-008-lane-control-signal~closed.svg",
+      "sha256": "b2bb90ed327609260e3e400b26d31651930cc9ff0f6ef76e005b19f83aaeee29",
+      "bytes": 717
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-008-lane-control-signal~open.svg",
+      "sha256": "2b434d08e0e5df13d1bd9fdcc1227c229758aeadddb923e5eb5deab8afbef3b0",
+      "bytes": 717
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-009-railway-crossing-signal.svg",
+      "sha256": "0508b3bc7c8efa40fa2129b86c6179aedad064c9e0663f5c52abf49dee245b07",
+      "bytes": 525
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-010-police-hand-signals.svg",
+      "sha256": "8ab583044a207321a8123334c16f2a6c66fb6b3fec3fa21b7f5b899ff3549eca",
+      "bytes": 459
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-011-variable-message-sign.svg",
+      "sha256": "5b27be867683a4a9c1f2fb567f68b64e168bb370c47ece908a6e3f11547c6353",
+      "bytes": 1368
+    },
+    {
+      "path": "pictograms/roados_signal/dark/sig-012-toll-and-access-control-signal.svg",
+      "sha256": "9dde614e9d3ef429c17b261304f84f5fbe93c0cd1c1d53ccca9d05d696640a58",
+      "bytes": 536
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-001-vehicle-traffic-signal~all.svg",
+      "sha256": "a25dac1c04fcba83bc8334dfec83876c58e95ddadc22ad99f18ec3ad3904418d",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-001-vehicle-traffic-signal~amber.svg",
+      "sha256": "c7984816e1d03e4f4d155671bf9a480e48f7c436520e39544efe3f3a2a6a6444",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-001-vehicle-traffic-signal~dark.svg",
+      "sha256": "58fd1785196f9e16c3dfcae1f734fc74e4ab9d0a62953183db656a95041e7d86",
+      "bytes": 446
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-001-vehicle-traffic-signal~green.svg",
+      "sha256": "fd3823c0d682519f7c5aba70f782a7faeb3f40ded1474d36906a0942d251c8c6",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-001-vehicle-traffic-signal~red.svg",
+      "sha256": "5dc52ee838ee5187ad2fed292171ce76cd5006315f6dbd39524454e535c14942",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-002-red-signal-state~red.svg",
+      "sha256": "5dc52ee838ee5187ad2fed292171ce76cd5006315f6dbd39524454e535c14942",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-003-amber-signal-state~amber.svg",
+      "sha256": "c7984816e1d03e4f4d155671bf9a480e48f7c436520e39544efe3f3a2a6a6444",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-004-green-signal-state~green.svg",
+      "sha256": "fd3823c0d682519f7c5aba70f782a7faeb3f40ded1474d36906a0942d251c8c6",
+      "bytes": 329
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-005-directional-arrow-signal~ahead.svg",
+      "sha256": "6188d75d9369c652c3261ab580380e387071c715c8544515207f882cc1685552",
+      "bytes": 432
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-005-directional-arrow-signal~left.svg",
+      "sha256": "cf5250e7a045508c14ceca5986c1e8b3f0a496f79a92a1cd292b2e1a7f26b611",
+      "bytes": 396
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-005-directional-arrow-signal~right.svg",
+      "sha256": "ed1e9ad8d6734e39daebf5cf2d743b2beb6146b0bf78226e5031ec4b9879a818",
+      "bytes": 437
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-006-pedestrian-signal~stop.svg",
+      "sha256": "beb96417e294755eb757a8b90aad9fca1691a29cd97e9c1d2a07cc3518546ab2",
+      "bytes": 702
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-006-pedestrian-signal~walk.svg",
+      "sha256": "72b78e239485bea7fb006a82a13ff0cc7b02f4f69137c958e99f7aafea36f841",
+      "bytes": 702
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-007-flashing-signal.svg",
+      "sha256": "f65a15a4b446e5815ba8b41e5932d31ea91ef40508a30b31fc2d2534e517b649",
+      "bytes": 402
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-008-lane-control-signal~closed.svg",
+      "sha256": "d8d4a44715349111b0f8cc4c4d3d987e8db59fc4d9a3495ecdf2068a2c697486",
+      "bytes": 717
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-008-lane-control-signal~open.svg",
+      "sha256": "0280f25f1eb871e356809d12a4a2e4887c9646d8d399720c393ac6040edd11a1",
+      "bytes": 717
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-009-railway-crossing-signal.svg",
+      "sha256": "b205d9c6b828050cd5726f95543b045b5c122dff4c0360cf6a7e2896b07640cd",
+      "bytes": 525
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-010-police-hand-signals.svg",
+      "sha256": "6912a3611e33d8a99a190530622539bf3d60bb2b042a7d315905d336ca90ada3",
+      "bytes": 459
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-011-variable-message-sign.svg",
+      "sha256": "839777f4c9c6231c64c0bf8b23dbc9f9a73fdc1af38b4861ff43103d240bbe8a",
+      "bytes": 1368
+    },
+    {
+      "path": "pictograms/roados_signal/light/sig-012-toll-and-access-control-signal.svg",
+      "sha256": "becc4ff5bc70cc75d01d6b53e1ceb0c2eeece6d10b4554a26cccdee6f5d046c6",
+      "bytes": 536
+    },
+    {
+      "path": "pictograms/stop_octagon/dark/rsg-001-stop.svg",
+      "sha256": "812d2a7be7f1c9394d446472e1a35e307f398b7502231792f5940d72dc717e5e",
+      "bytes": 277
+    },
+    {
+      "path": "pictograms/stop_octagon/light/rsg-001-stop.svg",
+      "sha256": "812d2a7be7f1c9394d446472e1a35e307f398b7502231792f5940d72dc717e5e",
+      "bytes": 277
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/brg-001-narrow-bridge.svg",
+      "sha256": "8b83f3b6766ca14e357fb3d593df9384f8d4868f1efb2eb3061ce1b24024f09f",
+      "bytes": 371
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/env-019-strong-crosswind.svg",
+      "sha256": "51939d5cb0b5d6b9793cc68970aed1a4fd1f41e6a06e491fd4c8ae1f403baf0b",
+      "bytes": 626
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-002-sharp-left-curve~left.svg",
+      "sha256": "e7095d7fa47d4d7e06dc8cdb2fa74cd6476a8ded2d86c44977ed91f357118e0e",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-003-sharp-right-curve~right.svg",
+      "sha256": "15f512b0f203c65a7fd8fa53e9617c53fc33e13c443eb3bae488cef6544d794b",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-004-hairpin-bend~left.svg",
+      "sha256": "4a181a2301d35f74780498fc76c2ee01e997d41a9f66900be5f85aefc4f7b2f6",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-004-hairpin-bend~right.svg",
+      "sha256": "7698270e11b30feb5908cd451b661b5498f76edd86475b5bf2e5dd508ac85bcb",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-005-s-bend.svg",
+      "sha256": "78dc5e38e082b6b7bed57d92ef2112c035807d561094c0d54c41d1588e79e1b0",
+      "bytes": 276
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-007-t-junction.svg",
+      "sha256": "1ef14413e6a06b9c725705ea7a1e119a7a19d85966c7662e8c2250f974ae8384",
+      "bytes": 211
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-008-y-junction.svg",
+      "sha256": "4af35da2c72e693e96c19fed48f47021c622b6dd5906e7f120c93e3f0b0cac91",
+      "bytes": 225
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-009-four-way-junction.svg",
+      "sha256": "52ea3b66d535b5570b7478021243737ac415416253842c31e6705362d3ab7065",
+      "bytes": 210
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-010-roundabout.svg",
+      "sha256": "27e257d35475d69b84e679b2e70be9f4d79ba681df1cb23c06716d3471c67fb8",
+      "bytes": 692
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-011-road-narrowing~both.svg",
+      "sha256": "c0f89479336cd73982c7dbcf8505f56928e79fae18b9215eb0918705ca3e9cdb",
+      "bytes": 228
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-011-road-narrowing~left.svg",
+      "sha256": "60de0ccc04d0719bd1435c44144f54a64b2d76444cc06f222f24d95dda2a2ae1",
+      "bytes": 219
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-011-road-narrowing~right.svg",
+      "sha256": "7b949bc5a8edb4baa58503b1cd161f1ccaf6a10643252a768d21ce19912f23ce",
+      "bytes": 220
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-019-steep-uphill~up.svg",
+      "sha256": "f08e22552b02a00ce4e1a93a98a745b9e6c47ff6f941c586896859d26606abde",
+      "bytes": 468
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-020-steep-downhill~down.svg",
+      "sha256": "a223064600459ab402894639abb7b7ec1e66fb3c8081f4aa5daee88217d0e781",
+      "bytes": 509
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-022-road-dip.svg",
+      "sha256": "ebe73a063e62771351527dd7c7df5cf0463c09674b7381a3a14bd81d9de26c87",
+      "bytes": 191
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/geo-023-railway-crossing.svg",
+      "sha256": "cd364e68e943b330dea30d3f6d7067823c457c1d601d973a63621be89b268584",
+      "bytes": 620
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-013-sharp-left-bend~left.svg",
+      "sha256": "e7095d7fa47d4d7e06dc8cdb2fa74cd6476a8ded2d86c44977ed91f357118e0e",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-014-sharp-right-bend~right.svg",
+      "sha256": "15f512b0f203c65a7fd8fa53e9617c53fc33e13c443eb3bae488cef6544d794b",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-015-hairpin-bend~left.svg",
+      "sha256": "4a181a2301d35f74780498fc76c2ee01e997d41a9f66900be5f85aefc4f7b2f6",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-015-hairpin-bend~right.svg",
+      "sha256": "7698270e11b30feb5908cd451b661b5498f76edd86475b5bf2e5dd508ac85bcb",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-016-dangerous-dip.svg",
+      "sha256": "ebe73a063e62771351527dd7c7df5cf0463c09674b7381a3a14bd81d9de26c87",
+      "bytes": 191
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-017-speed-breaker~sign.svg",
+      "sha256": "c5750d10e6644f2ffe251825df03b9e551e3c6ec93c293ce0072269f70838c39",
+      "bytes": 268
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-018-rough-road.svg",
+      "sha256": "3c423a7025202ad2a26810c0765187ad317e4c48fc743ac9c751fba2e89bcc8a",
+      "bytes": 311
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-019-loose-gravel.svg",
+      "sha256": "e8aab1be4f27a5dd30f893cfdd695b7f9ca1f4db42e0083a5a983a10c9edc13c",
+      "bytes": 877
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-020-falling-rocks.svg",
+      "sha256": "fbcd837e764b6f44b82697db1126ef654b65e4a2e5583b887db8c1675090d346",
+      "bytes": 413
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-021-narrow-bridge.svg",
+      "sha256": "8b83f3b6766ca14e357fb3d593df9384f8d4868f1efb2eb3061ce1b24024f09f",
+      "bytes": 371
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-022-narrow-road.svg",
+      "sha256": "65493fdcdb6e61f6edb57d7dea1fe6077637586fc4e751ce7a215d1d60283710",
+      "bytes": 271
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-023-road-narrows~both.svg",
+      "sha256": "c0f89479336cd73982c7dbcf8505f56928e79fae18b9215eb0918705ca3e9cdb",
+      "bytes": 228
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-023-road-narrows~left.svg",
+      "sha256": "60de0ccc04d0719bd1435c44144f54a64b2d76444cc06f222f24d95dda2a2ae1",
+      "bytes": 219
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-023-road-narrows~right.svg",
+      "sha256": "7b949bc5a8edb4baa58503b1cd161f1ccaf6a10643252a768d21ce19912f23ce",
+      "bytes": 220
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-024-slippery-road.svg",
+      "sha256": "ebb81d248c2dd3c668bdf0c0fe143a3b9e2e83bcbbd8179f48ae06cc06d664f4",
+      "bytes": 662
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-025-crossroads.svg",
+      "sha256": "52ea3b66d535b5570b7478021243737ac415416253842c31e6705362d3ab7065",
+      "bytes": 210
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-026-t-junction.svg",
+      "sha256": "1ef14413e6a06b9c725705ea7a1e119a7a19d85966c7662e8c2250f974ae8384",
+      "bytes": 211
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-027-y-junction.svg",
+      "sha256": "4af35da2c72e693e96c19fed48f47021c622b6dd5906e7f120c93e3f0b0cac91",
+      "bytes": 225
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-028-roundabout.svg",
+      "sha256": "27e257d35475d69b84e679b2e70be9f4d79ba681df1cb23c06716d3471c67fb8",
+      "bytes": 692
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-029-pedestrian-crossing.svg",
+      "sha256": "7a9ce53b7f5faa84075566750fa06421af8d1f7e85c75085baea2241fca612df",
+      "bytes": 704
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-030-school-ahead.svg",
+      "sha256": "1550a53fd4e4148b07860d1b2ee67738acdfb337453ec66689768a88f806b1fe",
+      "bytes": 662
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-031-cattle-crossing.svg",
+      "sha256": "816380e98ed1b1cfa0aaa8357cd3e934af271bf9c44ada555818709cc7ccabf4",
+      "bytes": 498
+    },
+    {
+      "path": "pictograms/warning_triangle/dark/rsg-032-railway-crossing.svg",
+      "sha256": "cd364e68e943b330dea30d3f6d7067823c457c1d601d973a63621be89b268584",
+      "bytes": 620
+    },
+    {
+      "path": "pictograms/warning_triangle/light/brg-001-narrow-bridge.svg",
+      "sha256": "8b83f3b6766ca14e357fb3d593df9384f8d4868f1efb2eb3061ce1b24024f09f",
+      "bytes": 371
+    },
+    {
+      "path": "pictograms/warning_triangle/light/env-019-strong-crosswind.svg",
+      "sha256": "51939d5cb0b5d6b9793cc68970aed1a4fd1f41e6a06e491fd4c8ae1f403baf0b",
+      "bytes": 626
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-002-sharp-left-curve~left.svg",
+      "sha256": "e7095d7fa47d4d7e06dc8cdb2fa74cd6476a8ded2d86c44977ed91f357118e0e",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-003-sharp-right-curve~right.svg",
+      "sha256": "15f512b0f203c65a7fd8fa53e9617c53fc33e13c443eb3bae488cef6544d794b",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-004-hairpin-bend~left.svg",
+      "sha256": "4a181a2301d35f74780498fc76c2ee01e997d41a9f66900be5f85aefc4f7b2f6",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-004-hairpin-bend~right.svg",
+      "sha256": "7698270e11b30feb5908cd451b661b5498f76edd86475b5bf2e5dd508ac85bcb",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-005-s-bend.svg",
+      "sha256": "78dc5e38e082b6b7bed57d92ef2112c035807d561094c0d54c41d1588e79e1b0",
+      "bytes": 276
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-007-t-junction.svg",
+      "sha256": "1ef14413e6a06b9c725705ea7a1e119a7a19d85966c7662e8c2250f974ae8384",
+      "bytes": 211
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-008-y-junction.svg",
+      "sha256": "4af35da2c72e693e96c19fed48f47021c622b6dd5906e7f120c93e3f0b0cac91",
+      "bytes": 225
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-009-four-way-junction.svg",
+      "sha256": "52ea3b66d535b5570b7478021243737ac415416253842c31e6705362d3ab7065",
+      "bytes": 210
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-010-roundabout.svg",
+      "sha256": "27e257d35475d69b84e679b2e70be9f4d79ba681df1cb23c06716d3471c67fb8",
+      "bytes": 692
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-011-road-narrowing~both.svg",
+      "sha256": "c0f89479336cd73982c7dbcf8505f56928e79fae18b9215eb0918705ca3e9cdb",
+      "bytes": 228
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-011-road-narrowing~left.svg",
+      "sha256": "60de0ccc04d0719bd1435c44144f54a64b2d76444cc06f222f24d95dda2a2ae1",
+      "bytes": 219
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-011-road-narrowing~right.svg",
+      "sha256": "7b949bc5a8edb4baa58503b1cd161f1ccaf6a10643252a768d21ce19912f23ce",
+      "bytes": 220
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-019-steep-uphill~up.svg",
+      "sha256": "f08e22552b02a00ce4e1a93a98a745b9e6c47ff6f941c586896859d26606abde",
+      "bytes": 468
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-020-steep-downhill~down.svg",
+      "sha256": "a223064600459ab402894639abb7b7ec1e66fb3c8081f4aa5daee88217d0e781",
+      "bytes": 509
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-022-road-dip.svg",
+      "sha256": "ebe73a063e62771351527dd7c7df5cf0463c09674b7381a3a14bd81d9de26c87",
+      "bytes": 191
+    },
+    {
+      "path": "pictograms/warning_triangle/light/geo-023-railway-crossing.svg",
+      "sha256": "cd364e68e943b330dea30d3f6d7067823c457c1d601d973a63621be89b268584",
+      "bytes": 620
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-013-sharp-left-bend~left.svg",
+      "sha256": "e7095d7fa47d4d7e06dc8cdb2fa74cd6476a8ded2d86c44977ed91f357118e0e",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-014-sharp-right-bend~right.svg",
+      "sha256": "15f512b0f203c65a7fd8fa53e9617c53fc33e13c443eb3bae488cef6544d794b",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-015-hairpin-bend~left.svg",
+      "sha256": "4a181a2301d35f74780498fc76c2ee01e997d41a9f66900be5f85aefc4f7b2f6",
+      "bytes": 266
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-015-hairpin-bend~right.svg",
+      "sha256": "7698270e11b30feb5908cd451b661b5498f76edd86475b5bf2e5dd508ac85bcb",
+      "bytes": 307
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-016-dangerous-dip.svg",
+      "sha256": "ebe73a063e62771351527dd7c7df5cf0463c09674b7381a3a14bd81d9de26c87",
+      "bytes": 191
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-017-speed-breaker~sign.svg",
+      "sha256": "c5750d10e6644f2ffe251825df03b9e551e3c6ec93c293ce0072269f70838c39",
+      "bytes": 268
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-018-rough-road.svg",
+      "sha256": "3c423a7025202ad2a26810c0765187ad317e4c48fc743ac9c751fba2e89bcc8a",
+      "bytes": 311
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-019-loose-gravel.svg",
+      "sha256": "e8aab1be4f27a5dd30f893cfdd695b7f9ca1f4db42e0083a5a983a10c9edc13c",
+      "bytes": 877
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-020-falling-rocks.svg",
+      "sha256": "fbcd837e764b6f44b82697db1126ef654b65e4a2e5583b887db8c1675090d346",
+      "bytes": 413
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-021-narrow-bridge.svg",
+      "sha256": "8b83f3b6766ca14e357fb3d593df9384f8d4868f1efb2eb3061ce1b24024f09f",
+      "bytes": 371
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-022-narrow-road.svg",
+      "sha256": "65493fdcdb6e61f6edb57d7dea1fe6077637586fc4e751ce7a215d1d60283710",
+      "bytes": 271
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-023-road-narrows~both.svg",
+      "sha256": "c0f89479336cd73982c7dbcf8505f56928e79fae18b9215eb0918705ca3e9cdb",
+      "bytes": 228
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-023-road-narrows~left.svg",
+      "sha256": "60de0ccc04d0719bd1435c44144f54a64b2d76444cc06f222f24d95dda2a2ae1",
+      "bytes": 219
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-023-road-narrows~right.svg",
+      "sha256": "7b949bc5a8edb4baa58503b1cd161f1ccaf6a10643252a768d21ce19912f23ce",
+      "bytes": 220
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-024-slippery-road.svg",
+      "sha256": "ebb81d248c2dd3c668bdf0c0fe143a3b9e2e83bcbbd8179f48ae06cc06d664f4",
+      "bytes": 662
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-025-crossroads.svg",
+      "sha256": "52ea3b66d535b5570b7478021243737ac415416253842c31e6705362d3ab7065",
+      "bytes": 210
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-026-t-junction.svg",
+      "sha256": "1ef14413e6a06b9c725705ea7a1e119a7a19d85966c7662e8c2250f974ae8384",
+      "bytes": 211
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-027-y-junction.svg",
+      "sha256": "4af35da2c72e693e96c19fed48f47021c622b6dd5906e7f120c93e3f0b0cac91",
+      "bytes": 225
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-028-roundabout.svg",
+      "sha256": "27e257d35475d69b84e679b2e70be9f4d79ba681df1cb23c06716d3471c67fb8",
+      "bytes": 692
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-029-pedestrian-crossing.svg",
+      "sha256": "7a9ce53b7f5faa84075566750fa06421af8d1f7e85c75085baea2241fca612df",
+      "bytes": 704
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-030-school-ahead.svg",
+      "sha256": "1550a53fd4e4148b07860d1b2ee67738acdfb337453ec66689768a88f806b1fe",
+      "bytes": 662
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-031-cattle-crossing.svg",
+      "sha256": "816380e98ed1b1cfa0aaa8357cd3e934af271bf9c44ada555818709cc7ccabf4",
+      "bytes": 498
+    },
+    {
+      "path": "pictograms/warning_triangle/light/rsg-032-railway-crossing.svg",
+      "sha256": "cd364e68e943b330dea30d3f6d7067823c457c1d601d973a63621be89b268584",
+      "bytes": 620
+    },
+    {
+      "path": "tokens.json",
+      "sha256": "a0373597fe6c9209c1197e8e3ce7a4f4f7790c4dbf993a1f2d4e14ea93ff1943",
+      "bytes": 5250
+    }
+  ]
+}
